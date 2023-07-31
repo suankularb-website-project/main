@@ -41,6 +41,35 @@ body {
     z-index: -1;
 }
 
+a.cover-welcome {
+    font-size: 3rem;
+}
+
+a.cover-title {
+    font-size: 5rem;
+}
+
+a.cover-subtitle {
+    font-size: 1.5rem;
+}
+
+a.cover-button {
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: ease 0.2s;
+}
+
+a.cover-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: white;
+    border-width: 3px;
+    transition: ease 0.2s;
+}
+
 @media (max-width: 437px) and (min-width: 0px) {
     text.nav-title {
         font-size: 1.2rem;
@@ -50,6 +79,18 @@ body {
     }
     .nav-item {
         font-size: 1rem;
+    }
+    a.cover-welcome {
+        font-size: 1.2rem;
+    }
+    a.cover-title {
+        font-size: 1.7rem;
+    }
+    a.cover-subtitle {
+        display: none;
+    }
+    a.cover-button {
+        font-size: .6rem;
     }
 }
 
@@ -64,6 +105,18 @@ body {
     .nav-item {
         font-size: 1rem;
     }
+    a.cover-welcome {
+        font-size: 1.2rem;
+    }
+    a.cover-title {
+        font-size: 2rem;
+    }
+    a.cover-subtitle {
+        font-size: .8rem;
+    }
+    a.cover-button {
+        font-size: .8rem;
+    }
 }
 
 @media (max-width: 768px) and (min-width: 480px) {
@@ -77,6 +130,18 @@ body {
     .nav-item {
         font-size: 1.2rem;
     }
+    a.cover-welcome {
+        font-size: 1.2rem;
+    }
+    a.cover-title {
+        font-size: 2rem;
+    }
+    a.cover-subtitle {
+        font-size: .8rem;
+    }
+    a.cover-button {
+        font-size: .8rem;
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 768px) {
@@ -89,5 +154,17 @@ body {
     }
     .nav-item {
         font-size: 1.5rem;
+    }
+    a.cover-welcome {
+        font-size: 1.5rem;
+    }
+    a.cover-title {
+        font-size: 3rem;
+    }
+    a.cover-subtitle {
+        font-size: 1.2rem;
+    }
+    a.cover-button {
+        font-size: 1.2rem;
     }
 }
