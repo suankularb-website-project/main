@@ -6,85 +6,96 @@ import { Container } from 'react-bootstrap'
 
 const Context = createContext();
 
-export default function TeacherGroup() {
+export default function Math() {
     return (
         <><div className='d-flex res-bg align-items-center page-cov' id='cover'>
             <Container className="justify-content-end align-items-center text-center">
-                <a className="cover-title font-black">คณาจารย์ตามกลุ่มสาระฯ</a><br />
+                <a className="cover-title font-black">กลุ่มสาระการเรียนรู้การงานอาชีพ</a><br />
             </Container>
         </div>
         <div className="anc">
             <Container className="d-table justify-content-center align-items-center align-middle text-center m-auto" id="main">
-                <a href="/about/staffs/teachergroup/scitech" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/2_logo.jpg"></img>
+                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con-2l">
+                            <img src="http://96.30.126.41/sk/userfiles/images/สุพรรณี%20สุภีรัตน์.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">วิทยาศาสตร์และเทคโนโลยี</p>
+                        <p className="font-bold text-center anc-text">น.ส.สุพรรณี สุภีรัตน์</p>
+                        <p className="font-bold text-center anc-text">หัวหน้ากลุ่มสาระฯ</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/math" target="_parent">
+            </Container>
+            <Container className="d-table justify-content-center align-items-center align-middle text-center m-auto" id="main">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/29_logo.jpg"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/อุบลรัตน์%20%20ยี่รงค์.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">คณิตศาสตร์</p>
+                        <p className="font-bold text-center anc-text">น.ส.อุบลรัตน์ ยี่รงค์</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/foreign" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/4_logo.JPG"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/ฉิมพลี%20วิมลธรรม.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">ภาษาต่างประเทศ</p>
+                        <p className="font-bold text-center anc-text">น.ส.ฉิมพลี วิมลธรรม</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/thai" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/3_logo.png"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/เกศสุดา%20นันทชัย.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">ภาษาไทย</p>
+                        <p className="font-bold text-center anc-text">นางเกศสุดา นันทชัย</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/social" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/5_logo.gif"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/นุชสาวรีย์%20ขจรทรัพย์.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">สังคมศึกษา ศาสนาและวัฒนธรรม</p>
+                        <p className="font-bold text-center anc-text">นางนุชสาวรีย์ ขจรทรัพย์</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/occu" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/6_logo.png"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/เบญญา%20เวียงหฤทัย.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">การงานอาชีพ</p>
+                        <p className="font-bold text-center anc-text">น.ส.เบญญา เวียงหฤทัย</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/health" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/8_logo.png"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/จตุพร%20ปักเคระกา.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">สุขศึกษาและพลศึกษา</p>
+                        <p className="font-bold text-center anc-text">น.ส.จตุพร ปักเคระกา</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/art" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/7_logo.JPG"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/จิราภรณ์%20กลัดป้อม.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">ศิลปะ</p>
+                        <p className="font-bold text-center anc-text">น.ส.จิราภรณ์ กลัดป้อม</p>
                     </div>
                 </a>
-                <a href="/about/staffs/teachergroup/act" target="_parent">
+                <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/26_logo.jpg"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/สุวิทย์%20งามผักแว่น.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">กิจกรรมพัฒนาผู้เรียน(แนะแนว)</p>
+                        <p className="font-bold text-center anc-text">นายสุวิทย์ งามผักแว่น</p>
+                    </div>
+                </a>
+                <a>
+                    <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
+                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
+                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/19_logo.jpg"></img>
+                        </div>
+                        <p className="font-bold text-center anc-text">น.ส.สาลินี ประเสริฐ</p>
                     </div>
                 </a>
             </Container>

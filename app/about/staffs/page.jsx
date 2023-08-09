@@ -15,7 +15,7 @@ export default function Staff() {
         </div>
         <div className="anc">
             <Container className="d-table justify-content-center align-items-center align-middle text-center m-auto" id="main">
-                <a href="/staff/principal" target="_parent">
+                <a href="/about/staffs/principal" target="_parent">
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
                             <img src="http://96.30.126.41/sk/_admin/cover_subgroup/19_logo.jpg"></img>
@@ -23,7 +23,7 @@ export default function Staff() {
                         <p className="font-bold text-center anc-text">คณะผู้บริหารโรงเรียน</p>
                     </div>
                 </a>
-                <a href="/staff/teachergroup" target="_parent">
+                <a href="/about/staffs/teachergroup" target="_parent">
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
                             <img src="http://96.30.126.41/sk/_admin/cover_subgroup/29_logo.jpg"></img>
@@ -31,7 +31,7 @@ export default function Staff() {
                         <p className="font-bold text-center anc-text">คณาจารย์ตามกลุ่มสาระฯ</p>
                     </div>
                 </a>
-                <a href="/staff/teacherroom" target="_parent">
+                <a href="/about/staffs/teacherroom" target="_parent">
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
                             <img src="http://96.30.126.41/sk/_admin/cover_subgroup/15_logo.jpg"></img>
@@ -52,7 +52,7 @@ export default function Staff() {
                 <div className="float-end text-end">
                     <a className="font-normal">ข่าวสาร</a><br />
                     <a className="font-normal">วิชาการ</a><br />
-                    <a className="font-normal" href="/staff">บุคลากร</a><br />
+                    <a className="font-normal" href="/about/staffs">บุคลากร</a><br />
                     <a className="font-normal">คลังรูปภาพ</a><br />
                     <a className="font-normal">เกี่ยวกับโรงเรียน</a>
                 </div>

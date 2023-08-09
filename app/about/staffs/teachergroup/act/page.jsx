@@ -10,18 +10,18 @@ export default function Math() {
     return (
         <><div className='d-flex res-bg align-items-center page-cov' id='cover'>
             <Container className="justify-content-end align-items-center text-center">
-                <a className="cover-title font-black">อาคารสถานที่</a><br />
+                <a className="cover-title font-black">กิจกรรมพัฒนาผู้เรียน(แนะแนว)</a><br />
             </Container>
         </div>
         <div className="anc">
             <Container className="d-table justify-content-center align-items-center align-middle text-center m-auto" id="main">
                 <a>
-                    <div className="d-block justify-content-start align-items-start text-start grid grid-big" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con grid-img-con-big float-left">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B9%82%E0%B8%AA%E0%B8%A0%E0%B8%93%20%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%88%E0%B8%B5%E0%B8%99.jpg"></img>
+                    <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
+                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con-2l">
+                            <img src="http://96.30.126.41/sk/userfiles/images/วรชัย%20แต้มศิริชัย.jpg"></img>
                         </div>
-                        <p className="font-bold text-start anc-text pl-5">นายโสภณ ไทยจีน</p>
-                        <p className="font-bold text-start anc-text">หัวหน้ากลุ่มสาระฯ</p>
+                        <p className="font-bold text-center anc-text">นายวรชัย แต้มศิริชัย</p>
+                        <p className="font-bold text-center anc-text">หัวหน้ากลุ่มสาระฯ</p>
                     </div>
                 </a>
             </Container>
@@ -29,33 +29,33 @@ export default function Math() {
                 <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/IMG_2696.JPG"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/สิงหา%20สุวรรณศรี.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">นายสุพล นิลกลาง</p>
+                        <p className="font-bold text-center anc-text">นายสิงหา สุวรรณศรี</p>
                     </div>
                 </a>
                 <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9E%E0%B8%A3%20%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B2.jpg"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/วรางคณา%20มุ่งมาตร์มิตร.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">นายสถาพร อุทธา</p>
+                        <p className="font-bold text-center anc-text">น.ส.วรางคณา มุ่งมาตร์มิตร</p>
                     </div>
                 </a>
                 <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B8%AD_%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%B5.jpg"></img>
+                            <img src="http://96.30.126.41/sk/userfiles/images/อำภา%20แสนโท.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">นางพรรณี เจริญกัลป์</p>
+                        <p className="font-bold text-center anc-text">น.ส.อำภา แสนโท</p>
                     </div>
                 </a>
                 <a>
                     <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
                         <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B8%A0%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%8A%E0%B8%96%E0%B8%B1%E0%B8%AA%E0%B8%A3%E0%B9%8C%20%E0%B9%82%E0%B8%AA%E0%B8%95%E0%B8%96%E0%B8%A2%E0%B8%B2%E0%B8%84%E0%B8%A1.jpg"></img>
+                            <img src="http://96.30.126.41/sk/_admin/cover_subgroup/19_logo.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">นางภรณ์ชภัสร์ โสตถยาคม</p>
+                        <p className="font-bold text-center anc-text">น.ส.ศุภลักษณ์ โต๊ะอร่ามกุล</p>
                     </div>
                 </a>
             </Container>

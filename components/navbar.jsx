@@ -27,7 +27,7 @@ const NavbarDefault = () => (
                     <Nav.Link href="/links" className="px-2">เอกสารและลิงก์</Nav.Link>
                     <Nav.Link href="/gallery" className="px-2">คลังรูปภาพ</Nav.Link>
                     <NavDropdown title="เกี่ยวกับโรงเรียน" id="basic-nav-dropdown" classname="px-2">
-                        <NavDropdown.Item href="/about/staff" className="text-2xl">บุคลากร</NavDropdown.Item>
+                        <NavDropdown.Item href="/about/staffs" className="text-2xl">บุคลากร</NavDropdown.Item>
                         <NavDropdown.Item href="/about/buildings" className="text-2xl">อาคารสถานที่</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>

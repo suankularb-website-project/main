@@ -435,7 +435,7 @@ export default function SciTech() {
                 <div className="float-end text-end">
                     <a className="font-normal">ข่าวสาร</a><br />
                     <a className="font-normal">วิชาการ</a><br />
-                    <a className="font-normal" href="/staff">บุคลากร</a><br />
+                    <a className="font-normal" href="/about/staffs">บุคลากร</a><br />
                     <a className="font-normal">คลังรูปภาพ</a><br />
                     <a className="font-normal">เกี่ยวกับโรงเรียน</a>
                 </div>
