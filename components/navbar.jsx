@@ -6,13 +6,12 @@ import { createContext } from "react";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
-
-const Context = createContext();
+import { NavDropdown } from "react-bootstrap";
 
 const NavbarDefault = () => (
-    <Navbar expand="lg" data-bs-theme="dark" className="pt-3" fixed="top">
+    <Navbar expand="lg" data-bs-theme="dark" className="pt-3 navbar" fixed="top">
         <Container className="d-flex justify-content-between">
-            <Navbar.Brand href="#home" className="font-bold text-4xl align-middle">
+            <Navbar.Brand href="/" className="font-bold text-4xl align-middle">
                 <img
                     alt=""
                     src="/logo.png"
@@ -24,16 +23,13 @@ const NavbarDefault = () => (
                 <text className="align-middle nav-title">โรงเรียนสวนกุหลาบวิทยาลัย</text></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ml-auto text-3xl z-50 nav-item justify-content-end">
-                    <Nav.Item className="px-2">
-                        <Link href="/">ข่าวสาร</Link>
-                    </Nav.Item>
-                    <Nav.Item className="px-2">
-                        <Link href="/about">คลังรูปภาพ</Link>
-                    </Nav.Item>
-                    <Nav.Item className="px-2">
-                        <Link href="/contact">เกี่ยวกับโรงเรียน</Link>
-                    </Nav.Item>
+                <Nav className="ml-auto text-3xl z-50 nav-item justify-content-endr" defaultActiveKey="/" activeKey={window.location.pathname}>
+                    <Nav.Link href="/links" className="px-2">เอกสารและลิงก์</Nav.Link>
+                    <Nav.Link href="/gallery" className="px-2">คลังรูปภาพ</Nav.Link>
+                    <NavDropdown title="เกี่ยวกับโรงเรียน" id="basic-nav-dropdown" classname="px-2">
+                        <NavDropdown.Item href="/about/staff" className="text-2xl">บุคลากร</NavDropdown.Item>
+                        <NavDropdown.Item href="/about/buildings" className="text-2xl">อาคารสถานที่</NavDropdown.Item>
+                    </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
         </Container>
