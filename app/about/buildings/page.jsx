@@ -17,65 +17,32 @@ export default function Math() {
             <Container className="d-table justify-content-center align-items-center align-middle text-center m-auto" id="main">
                 <a>
                     <div className="d-block justify-content-start align-items-start text-start grid grid-big" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con grid-img-con-big float-left">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B9%82%E0%B8%AA%E0%B8%A0%E0%B8%93%20%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%88%E0%B8%B5%E0%B8%99.jpg"></img>
+                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con grid-img-con-big float-left mr-5">
+                            <img src="http://96.30.126.41/sk/userfiles/images/building1_1.jpg"></img>
                         </div>
-                        <p className="font-bold text-start anc-text pl-5">นายโสภณ ไทยจีน</p>
-                        <p className="font-bold text-start anc-text">หัวหน้ากลุ่มสาระฯ</p>
+                        <p className="font-bold text-start anc-title">อาคารสวนกุหลาบ</p>
+                        <p className="font-bold text-start anc-text">อาคารสวนกุหลาบ (ตึกยาว) เป็นอาคารเรียนหลังแรกของโรงเรียนสวนกุหลาบวิทยาลัยที่สร้างขึ้นใหม่ มีลักษณะเป็นสถาปัตกรรมที่มีความโดดเด่นและสง่างาม มีประวัติความเป็นมาที่มีคุณค่ายิ่งต่อสังคมไทย ชาวสวนกุหลาบทุกคนจึงมีความภาคภูมิใจ และถือว่าเป็นเอกลักษณ์ที่สำคัญอย่างหนึ่งของโรงเรียน</p>
+                        <p className="font-bold text-start anc-text">อาคารสวนกุหลาบ เริ่มสร้าง 8 ตุลาคม พ.ศ. 2453 เปิดใช้ 25 มิถุนายน พ.ศ. 2454 มีเพียงชั้นบนและล่าง ตึกยาวมีความยาว 198.35 เมตร กว้าง 11.35 เมตร เนื้อที่ตึกยาวทั้งหมด 1ไร่ 1 งาน 60 ตารางวา เป็นอาคารทรงยุโรป 2 ชั้น ขนานไปกับถนนตรีเพชร หลังคามุงด้วยกระเบื้องลอนสีอิฐ ภายในกั้นเป็นห้อง ๆ เป็นห้องขนาด 15 เมตร คูณ 9 เมตร 1 ห้อง สลับกับห้องเล็ก 9 เมตร คูณ 7 เมตร 2 ห้อง ตลอดความยาวของตึก</p>
+                        <p className="font-bold text-start anc-text">อาคารหลังนี้ พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว โปรดให้เจ้าหน้าที่เขียนแบบ ซึ่งจะมีลวดลายมากกว่าในปัจจุบัน ซึ่งสร้างขึ้นในปี พ.ศ.2452 แล้วเสร็จในปี พ.ศ. 2453 พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัวได้เสร็จทอดพระเนตรทั้งๆ ที่ยังทรงพระประชวรอยู่ เมื่อการก่อสร้างแล้วเสร็จ เจ้าพระยาพระเสด็จสุเรนทราธิบดี เสนาบดีกระทรวงธรรมการ ได้เป็นผู้ทำพิธีเปิดตึกนี้ โรงเรียนสวนกุลาบได้ใช้ตึกนี้เป็นที่เล่าเรียนตลอดมา</p>
+                        <p className="font-bold text-start anc-text">ประวัติเดิมมีว่าวัดราชบูรณะจะสร้างตึกแถวเพื่อเก็บค่าเช่า ทางกระทรวงธรรมการจึงได้มีหนังสือกราบทูลพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู ่หัว โดยทูลขอพระราชทานที่ตรงท้ายวัดราชบูรณะและขอเช่าตึกแถวทั้งหมดแทนประชาชน โดยเก็บจากนักเรียนคนละบาท และตึกนั้นจะต้องยาวไปตามถนนและข้างหน้าทำเป็นหน้าต่าง ข้างหลังจะให้ทำเป็นเฉลียงทางเดิน ค่าเช่าให้วัดโดยกระทรวงธรรมการให้ค่าเช่าวัดเป็นเงินร้อยละ 7.5</p>
                     </div>
                 </a>
             </Container>
             <Container className="d-table justify-content-center align-items-center align-middle text-center m-auto" id="main">
                 <a>
-                    <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/IMG_2696.JPG"></img>
+                    <div className="d-block justify-content-start align-items-start text-start grid grid-big" id="grid">
+                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con grid-img-con-big float-left mr-5">
+                            <img src="http://96.30.126.41/sk/userfiles/images/building1_1.jpg"></img>
                         </div>
-                        <p className="font-bold text-center anc-text">นายสุพล นิลกลาง</p>
-                    </div>
-                </a>
-                <a>
-                    <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9E%E0%B8%A3%20%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B2.jpg"></img>
-                        </div>
-                        <p className="font-bold text-center anc-text">นายสถาพร อุทธา</p>
-                    </div>
-                </a>
-                <a>
-                    <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B8%AD_%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%B5.jpg"></img>
-                        </div>
-                        <p className="font-bold text-center anc-text">นางพรรณี เจริญกัลป์</p>
-                    </div>
-                </a>
-                <a>
-                    <div className="d-inline-block justify-content-center align-items-center text-center grid" id="grid">
-                        <div className="d-flex justify-content-center align-items-center align-middle grid-img-con">
-                            <img src="http://96.30.126.41/sk/userfiles/images/%E0%B8%A0%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%8A%E0%B8%96%E0%B8%B1%E0%B8%AA%E0%B8%A3%E0%B9%8C%20%E0%B9%82%E0%B8%AA%E0%B8%95%E0%B8%96%E0%B8%A2%E0%B8%B2%E0%B8%84%E0%B8%A1.jpg"></img>
-                        </div>
-                        <p className="font-bold text-center anc-text">นางภรณ์ชภัสร์ โสตถยาคม</p>
+                        <p className="font-bold text-start anc-title">อาคารสวนกุหลาบ</p>
+                        <p className="font-bold text-start anc-text">อาคารสวนกุหลาบ (ตึกยาว) เป็นอาคารเรียนหลังแรกของโรงเรียนสวนกุหลาบวิทยาลัยที่สร้างขึ้นใหม่ มีลักษณะเป็นสถาปัตกรรมที่มีความโดดเด่นและสง่างาม มีประวัติความเป็นมาที่มีคุณค่ายิ่งต่อสังคมไทย ชาวสวนกุหลาบทุกคนจึงมีความภาคภูมิใจ และถือว่าเป็นเอกลักษณ์ที่สำคัญอย่างหนึ่งของโรงเรียน</p>
+                        <p className="font-bold text-start anc-text">อาคารสวนกุหลาบ เริ่มสร้าง 8 ตุลาคม พ.ศ. 2453 เปิดใช้ 25 มิถุนายน พ.ศ. 2454 มีเพียงชั้นบนและล่าง ตึกยาวมีความยาว 198.35 เมตร กว้าง 11.35 เมตร เนื้อที่ตึกยาวทั้งหมด 1ไร่ 1 งาน 60 ตารางวา เป็นอาคารทรงยุโรป 2 ชั้น ขนานไปกับถนนตรีเพชร หลังคามุงด้วยกระเบื้องลอนสีอิฐ ภายในกั้นเป็นห้อง ๆ เป็นห้องขนาด 15 เมตร คูณ 9 เมตร 1 ห้อง สลับกับห้องเล็ก 9 เมตร คูณ 7 เมตร 2 ห้อง ตลอดความยาวของตึก</p>
+                        <p className="font-bold text-start anc-text">อาคารหลังนี้ พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว โปรดให้เจ้าหน้าที่เขียนแบบ ซึ่งจะมีลวดลายมากกว่าในปัจจุบัน ซึ่งสร้างขึ้นในปี พ.ศ.2452 แล้วเสร็จในปี พ.ศ. 2453 พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัวได้เสร็จทอดพระเนตรทั้งๆ ที่ยังทรงพระประชวรอยู่ เมื่อการก่อสร้างแล้วเสร็จ เจ้าพระยาพระเสด็จสุเรนทราธิบดี เสนาบดีกระทรวงธรรมการ ได้เป็นผู้ทำพิธีเปิดตึกนี้ โรงเรียนสวนกุลาบได้ใช้ตึกนี้เป็นที่เล่าเรียนตลอดมา</p>
+                        <p className="font-bold text-start anc-text">ประวัติเดิมมีว่าวัดราชบูรณะจะสร้างตึกแถวเพื่อเก็บค่าเช่า ทางกระทรวงธรรมการจึงได้มีหนังสือกราบทูลพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู ่หัว โดยทูลขอพระราชทานที่ตรงท้ายวัดราชบูรณะและขอเช่าตึกแถวทั้งหมดแทนประชาชน โดยเก็บจากนักเรียนคนละบาท และตึกนั้นจะต้องยาวไปตามถนนและข้างหน้าทำเป็นหน้าต่าง ข้างหลังจะให้ทำเป็นเฉลียงทางเดิน ค่าเช่าให้วัดโดยกระทรวงธรรมการให้ค่าเช่าวัดเป็นเงินร้อยละ 7.5</p>
                     </div>
                 </a>
             </Container>
         </div>
-        <br />
-        <div className="footer d-flex pt-5 pb-5">
-            <Container>
-                <div className="float-start">
-                    <a className="font-black footer-title">โรงเรียนสวนกุหลาบวิทยาลัย</a>
-                    <br />
-                    <a className="font-black">88 ถนนตรีเพชร แขวงวังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200</a>
-                </div>
-                <div className="float-end text-end">
-                    <a className="font-normal">ข่าวสาร</a><br />
-                    <a className="font-normal">วิชาการ</a><br />
-                    <a className="font-normal" href="/staff">บุคลากร</a><br />
-                    <a className="font-normal">คลังรูปภาพ</a><br />
-                    <a className="font-normal">เกี่ยวกับโรงเรียน</a>
-                </div>
-            </Container>
-        </div></>
+        </>
     )
 }

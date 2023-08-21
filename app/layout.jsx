@@ -1,7 +1,8 @@
-import './globals.css'
+import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Inter } from 'next/font/google'
-import NavbarDefault from '../components/navbar'
+import { Inter } from 'next/font/google';
+import NavbarDefault from '../components/navbar';
+import Footer from '../components/footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,10 @@ export default function RootLayout({ children }) {
                 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"></link>
             </head>
             <body className={inter.className}>
-                <NavbarDefault />{children}
+                <NavbarDefault />
+                {children}
+                <br />
+                <Footer />
             </body>
         </html>
     )
