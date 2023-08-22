@@ -34,7 +34,7 @@ export default function Staff() {
                                 <p>คณะผู้บริหารโรงเรียน</p>
                             </CardContent>
                         </Card>
-                        <Card appearance="outlined" href="/about/staff/teacherroom" stateLayerEffect shadowEffect className="h-72" >
+                        <Card appearance="outlined" href="/about/staff/teachergroup" stateLayerEffect shadowEffect className="h-72" >
                             <img src="http://96.30.126.41/sk/_admin/cover_subgroup/29_logo.jpg" className="m-auto max-h-56" />
                             <CardContent>
                                 <p>คณาจารย์ตามกลุ่มสาระฯ</p>
@@ -51,4 +51,4 @@ export default function Staff() {
             </Container>
         </ThemeProvider></>
     )
-}
+}   
