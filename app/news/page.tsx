@@ -6,7 +6,6 @@ import { Button, Card, Pagination, PaginationProps, Input, Divider } from "antd"
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import news from "../../config/news.json";
-
 const { Search } = Input;
 
 export default function Home() {
