@@ -40,6 +40,17 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
                                 colorBorder: "#ffffff",
                                 colorText: "#ffffff",
                                 colorTextPlaceholder: "#909090"
+                            },
+                            Menu: {
+                                itemBg: "#000000",
+                                itemActiveBg: "#101010",
+                                itemColor: "#ffffff",
+                                itemHoverColor: "#f5f5f5",
+                                subMenuItemBg: "#101010",
+                                popupBg: "#000000",
+                                darkSubMenuItemBg: "#101010",
+                                darkItemBg: "#000000",
+                                darkItemColor: "#ffffff",
                             }
                         },
                     }}

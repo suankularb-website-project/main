@@ -69,7 +69,6 @@ export default function Home() {
                     <Pagination current={currentPage} total={filteredNews.length} pageSize={12} onChange={handlePageChange} />
                 </div>
             </div>
-            
         </main>
     )
 }

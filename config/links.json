@@ -1,0 +1,38 @@
+[
+    {
+        "title": "การชำระเงินบำรุงการศึกษา",
+        "url": "http://96.30.126.41/sk/userfiles/images/school%20ict(1).jpg",
+        "cover": "http://96.30.126.41/sk/userfiles/images/school%20ict(1).jpg",
+        "id": 1
+    },
+    {
+        "title": "คุณภาพกุหลาบหลวง",
+        "url": "http://43.229.77.153/~ztrad/sk/",
+        "cover": "http://96.30.126.41/sk/userfiles/images/1(1).png",
+        "id": 2
+    },
+    {
+        "title": "SK Library eBook",
+        "url": "http://96.30.126.41/sk/userfiles/images/ebook_button.png",
+        "cover": "http://96.30.126.41/sk/userfiles/images/ebook_button.png",
+        "id": 3
+    },
+    {
+        "title": "ระบบสืบค้นบรรณานุกรมหนังสือ",
+        "url": "http://library.sk.ac.th/openbib/opac/index.php",
+        "cover": "http://96.30.126.41/sk/userfiles/images/IMG_2858.jpg",
+        "id": 4
+    },
+    {
+        "title": "งานประกันคุณภาพภายในสถานศึกษา",
+        "url": "https://goo.gl/forms/0hDyGA5b2upH8WY02",
+        "cover": "http://96.30.126.41/sk/userfiles/images/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%90%E0%B8%B2%E0%B8%99.jpg",
+        "id": 5
+    },
+    {
+        "title": "ระบบจัดทำแผนอิงระบบประกัน",
+        "url": "http://161.82.218.12/sksar",
+        "cover": "http://96.30.126.41/sk/userfiles/images/sar.jpg",
+        "id": 6
+    }
+]
