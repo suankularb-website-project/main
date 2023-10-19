@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sidebar from "../../components/about";
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
