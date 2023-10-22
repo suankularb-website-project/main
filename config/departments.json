@@ -1,0 +1,72 @@
+[
+    {
+        "name": "กลุ่มสาระการเรียนรู้คณิตศาสตร์",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/29_logo.jpg",
+        "id": "mathematics"
+    },
+    {
+        "name": "กลุ่มสาระการเรียนรู้วิทยาศาสตร์",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/2_logo.jpg",
+        "id": "science"
+    },
+    {
+        "name": "กลุ่มสาระการเรียนรู้ภาษาไทย",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/3_logo.png",
+        "id": "thai"
+    },
+    {
+        "name": "กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/4_logo.JPG",
+        "id": "foreign-language"
+    },
+    {
+        "name": "กลุ่มสาระการเรียนรู้สังคมศึกษา",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/5_logo.gif",
+        "id": "social-studies"
+    },
+    {
+        "name": "กลุ่มสาระการเรียนรู้การงานอาชีพ",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/6_logo.png",
+        "id": "career"
+    },
+    {
+        "name": "กลุ่มสาระการเรียนรู้ศิลปะศึกษา",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/7_logo.JPG",
+        "id": "art"
+    },
+    {
+        "name": "งานส่งเสริมศักยภาพนักเรียน (ห้องกุหลาบเพชร)",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/15_logo.jpg",
+        "id": "diamond-rose"
+    },
+    {
+        "name": "งานพัฒนาคุณภาพการศึกษา",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/9_logo.jpg",
+        "id": "quality-education"
+    },
+    {
+        "name": "งานวิทยบริการ",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/18_logo.jpg",
+        "id": "library"
+    },
+    {
+        "name": "ฝ่ายบริหารบุคลากร การเงิน และสินทรัพย์",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/19_logo.jpg",
+        "id": "personnel"
+    },
+    {
+        "name": "GATE Program",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/23_logo.png",
+        "id": "gate"
+    },
+    {
+        "name": "งานแนะแนว",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/26_logo.jpg",
+        "id": "guidance"
+    },
+    {
+        "name": "งานสารสนเทศ",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/30_logo.jpg",
+        "id": "it"
+    }
+]

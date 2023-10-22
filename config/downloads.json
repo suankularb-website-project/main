@@ -1,0 +1,44 @@
+[
+    {
+        "title": "กลุ่มบริหารกิจการนักเรียน",
+        "url": "http://96.30.126.41/sk/userfiles/files/%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%99%E0%B8%AD%E0%B8%81%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.pdf",
+        "cover": "http://96.30.126.41/sk/userfiles/images/%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%99%E0%B8%AD%E0%B8%81%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.png",
+        "id": 1
+    },
+    {
+        "title": "การชำระเงินบำรุงการศึกษา",
+        "url": "http://drive.google.com/file/d/1D2s2V9rzVfAaEGVKRkNkTc4kfXbRiKLR/view?usp=sharing",
+        "cover": "http://96.30.126.41/sk/userfiles/images/school-ict(1).jpg",
+        "id": 2   
+    },
+    {
+        "title": "คู่มือการใช้งาน Google Classroom",
+        "url": "http://96.30.126.41/sk/userfiles/files/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%20Google%20Classroom%20%E0%B8%A3%E0%B8%A7%E0%B8%9A%E0%B8%A3%E0%B8%B1%E0%B8%94.pdf",
+        "cover": "http://96.30.126.41/sk/userfiles/images/google%20classroom(1).jpg",
+        "id": 3
+    },
+    {
+        "title": "PLC",
+        "url": "http://96.30.126.41/sk/userfiles/files/%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%20PLC%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B8%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%9A.docx",
+        "cover": "http://96.30.126.41/sk/userfiles/images/PLC.jpg",
+        "id": 4
+    },
+    {
+        "title": "ID PLAN",
+        "url": "http://96.30.126.41/sk/userfiles/files/%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A1%20ID%20plan%20%E0%B8%84%E0%B8%B9%E0%B8%9B%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B9.doc",
+        "cover": "http://96.30.126.41/sk/userfiles/images/idplan.jpg",
+        "id": 5
+    },
+    {
+        "title": "EP Senior Manual",
+        "url": "http://96.30.126.41/sk/userfiles/files/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%20ep%20%E0%B8%A1_%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2.pdf",
+        "cover": "http://96.30.126.41/sk/userfiles/images/EP.png",
+        "id": 6
+    },
+    {
+        "title": "รายงานผลการประเมิณคุณภาพกุหลาบหลวง",
+        "url": "https://sites.google.com/sk.ac.th/standard11suan",
+        "cover": "http://96.30.126.41/sk/userfiles/images/2(2).png",
+        "id": 7
+    }
+]

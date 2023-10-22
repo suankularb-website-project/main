@@ -1,5 +1,5 @@
 {
-  "name": "my-next-project",
+  "name": "antd-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@material/react-material-icon": "^0.15.0",
-    "@suankularb-components/css": "^3.2.2",
-    "@suankularb-components/react": "^3.2.2",
-    "autoprefixer": "10.4.14",
-    "bootstrap": "^5.3.1",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.12",
-    "framer-motion": "^10.16.0",
-    "next": "13.4.12",
-    "postcss": "8.4.27",
+    "@ant-design/cssinjs": "^1.17.0",
+    "@ant-design/icons": "^5.2.6",
+    "@types/node": "20.8.0",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.8",
+    "antd": "^5.9.4",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.3",
+    "next": "^13.5.4",
+    "postcss": "8.4.31",
     "react": "18.2.0",
-    "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
-    "sass": "^1.66.1",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   }
 }
