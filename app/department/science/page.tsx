@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card } from "antd";
-import departments from "../../config/departments/science.json";
+import departments from "../../../config/departments/science.json";
 
 export default function Department() {
     return (
@@ -14,7 +14,7 @@ export default function Department() {
                                 className="w-full bg-transparent h-[15rem] lg:h-80"
                                 cover={<div className="h-[10.75rem] lg:h-60 justify-center"><Image alt={item.name} src={item.cover} width={900} height={200} className="w-auto h-full mx-auto" /></div>}
                                 title={item.name}
-                                description={item.type}
+                                content={item.type}
                             ></Card>
                     ))}
                 </div>
