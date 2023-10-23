@@ -25,6 +25,11 @@
         "id": "social-studies"
     },
     {
+        "name": "กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา",
+        "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/8_logo.png",
+        "id": "physical-education"
+    },
+    {
         "name": "กลุ่มสาระการเรียนรู้การงานอาชีพ",
         "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/6_logo.png",
         "id": "career"
@@ -60,7 +65,7 @@
         "id": "gate"
     },
     {
-        "name": "งานแนะแนว",
+        "name": "กิจกรรมพัฒนาผู้เรียน (แนะแนว)",
         "cover": "http://96.30.126.41/sk/_admin/cover_subgroup/26_logo.jpg",
         "id": "guidance"
     },
