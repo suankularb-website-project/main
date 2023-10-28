@@ -51,6 +51,13 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
                                 darkSubMenuItemBg: "#101010",
                                 darkItemBg: "#000000",
                                 darkItemColor: "#ffffff",
+                            },
+                            Table: {
+                                headerBg: "#101010",
+                                headerColor: "#ffffff",
+                                borderColor: "#000000",
+                                colorBgContainer: "#050505",
+                                colorText: "#f9f9f9",
                             }
                         },
                     }}

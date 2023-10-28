@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Card } from "antd";
 import departments from "../../../config/departments/thai.json";
 
-export default function Department() {
+export default function Thai() {
     return (
         <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
