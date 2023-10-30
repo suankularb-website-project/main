@@ -10,6 +10,13 @@
     --background-end-rgb: 255, 255, 255;
 }
 
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    background-color: unset !important; /* 2 */
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground-rgb: 255, 255, 255;
