@@ -10,11 +10,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'i.ibb.co'
             },
-        ],
-		domains: [
-			'96.30.126.41',
-			'i.ibb.co',
-		]
+        ]
     }
 }
 

@@ -5,6 +5,7 @@ import StyledComponentsRegistry from '../lib/AntdRegistry';
 import Navbar from '../components/header';
 import Footer from '../components/footer';
 import './globals.css'
+import themed from '../theme/themeConfig';
 
 export const metadata = {
     title: 'โรงเรียนสวนกุหลาบวิทยาลัย',
@@ -23,44 +24,7 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
         <body className="bg-black flex flex-col">
             <StyledComponentsRegistry>
                 <ConfigProvider
-                    theme={{
-                        algorithm: theme.darkAlgorithm,
-                        components: {
-                            Card: {
-                                headerBg: "#101010",
-                                colorBgContainer: "#101010",
-                                colorTextHeading: "#ffffff"
-                            },
-                            Pagination: {
-                                colorText: "#ffffff",
-                                colorTextDisabled: "#ffffff"
-                            },
-                            Input: {
-                                colorBgContainer: "#000000",
-                                colorBorder: "#ffffff",
-                                colorText: "#ffffff",
-                                colorTextPlaceholder: "#909090"
-                            },
-                            Menu: {
-                                itemBg: "#000000",
-                                itemActiveBg: "#101010",
-                                itemColor: "#ffffff",
-                                itemHoverColor: "#f5f5f5",
-                                subMenuItemBg: "#101010",
-                                popupBg: "#000000",
-                                darkSubMenuItemBg: "#101010",
-                                darkItemBg: "#000000",
-                                darkItemColor: "#ffffff",
-                            },
-                            Table: {
-                                headerBg: "#101010",
-                                headerColor: "#ffffff",
-                                borderColor: "#000000",
-                                colorBgContainer: "#050505",
-                                colorText: "#f9f9f9",
-                            }
-                        },
-                    }}
+                    theme={themed}
                 >
                     <Navbar />
                     {children}
