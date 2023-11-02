@@ -126,18 +126,39 @@ function getName (code: string, cell2: HTMLTableCellElement) {
 }
 
 export default function Course() {
+    const [messageApi, contextHolder] = message.useMessage();
     const [form] = Form.useForm();
     function roomFinish() {
         let div = document.getElementById('datadiv') as HTMLElement;
         insertTable(div);
         let table = document.getElementById('data') as HTMLTableElement;
         const roomVal = form.getFieldValue('room')
-        let type: string;
+        let s1 = document.getElementById('s1div') as HTMLElement;
+        let s1title = document.getElementById('s1') as HTMLElement;
+        let s2 = document.getElementById('s2div') as HTMLElement;
+        let s2title = document.getElementById('s2') as HTMLElement;
+        let title = document.getElementById('title') as HTMLElement;
+        let classr = document.getElementById('class') as HTMLElement;
+        let blank = [div, s1, s1title, s2, s2title, title, classr];
+        let type: string = "";
         room.map((item, index) => {
             if (item.name == roomVal) {
                 type = item.type;
             }
         })
+        if (type == "") {
+            messageApi.open({
+                type: 'error',
+                content: 'ไม่พบชั้นเรียน'
+            });
+            messageApi.open({
+                type: 'warning',
+                content: 'กรุณากรอกชั้นเรียน ม.101-113, 201-213, 301-313, 401-415, 501-515, 601-614'
+            });
+            blank.map((it, i) => {
+                it.innerHTML = "";
+            })
+        }
         course.map((item, index) => {
             if (item.name == type) {
                 let title = document.getElementById('title') as HTMLElement;
@@ -298,6 +319,7 @@ export default function Course() {
     return (
         <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
+                {contextHolder}
                 <h1 className="text-3xl">โครงสร้างแผนการเรียน</h1>
                 <Form form={form} onFinish={roomFinish}>
                     <Form.Item name="room" label="ชั้นเรียน">
@@ -310,7 +332,6 @@ export default function Course() {
                 <h1 id="title" className="text-2xl"></h1>
                 <h1 id="class" className="text-2xl"></h1>
                 <div id="datadiv"></div>
-                <h1 id="stitle" className="text-2xl"></h1>
                 <h1 id="s1" className="text-2xl"></h1>
                 <div id="s1div"></div>
                 <h1 id="s2" className="text-2xl"></h1>
