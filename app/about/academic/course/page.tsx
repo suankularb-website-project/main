@@ -68,6 +68,25 @@ function insertTable (div : HTMLElement) {
     `
 }
 
+function insertSelectTable (div: HTMLElement, i: string) {
+    div.innerHTML = `
+                <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;>
+                    <tbody>
+                        <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
+                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 1</th>
+                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 2</th>
+                        </tr>
+                        <tr id="nd2" style="border: 1px solid white; borderCollapse: collapse;">
+                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                            <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
+                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                            <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
+                        </tr>
+                    </tbody>
+                </table>
+    `
+}
+
 function writeTable(code: string, cell2: HTMLTableCellElement, cell3: HTMLTableCellElement, cell4: HTMLTableCellElement) {
     let weight: number = 0;
     subject.map((item, index) => {
@@ -96,6 +115,14 @@ function writeTableGuide(code: string, cell2: HTMLTableCellElement, cell3: HTMLT
         }
     })
     return hour;
+}
+
+function getName (code: string, cell2: HTMLTableCellElement) {
+    subject.map((item, index) => {
+        if (item.code == code) {
+            cell2.innerHTML = item.name;
+        }
+    })
 }
 
 export default function Course() {
@@ -160,12 +187,28 @@ export default function Course() {
                     var cell6 = row.insertCell(5);
                     var cell7 = row.insertCell(6);
                     var cell8 = row.insertCell(7);
-                    cell1.innerHTML = at1code[i];
-                    let weight1 = writeTable(at1code[i], cell2, cell3, cell4);
-                    at1weight += weight1;
-                    cell5.innerHTML = at2code[i];
-                    let weight2 = writeTable(at2code[i], cell6, cell7, cell8);
-                    at2weight += weight2;
+                    if (at1code[i] == "วิชาเลือก") {
+                        let weight1 = writeTable(item.s1_1t1code, cell2, cell3, cell4);
+                        cell2.innerHTML = item.s1title;
+                        at1weight += weight1;
+                        let weight2 = writeTable(item.s1_1t2code, cell6, cell7, cell8);
+                        cell6.innerHTML = item.s1title;
+                        at2weight += weight2;
+                    } else if (at1code[i] == "วิชาเลือก2") {
+                        let weight1 = writeTable(item.s2_1t1code, cell2, cell3, cell4);
+                        cell2.innerHTML = item.s2title;
+                        at1weight += weight1;
+                        let weight2 = writeTable(item.s2_1t2code, cell6, cell7, cell8);
+                        cell6.innerHTML = item.s2title;
+                        at2weight += weight2;
+                    } else {
+                        cell1.innerHTML = at1code[i];
+                        let weight1 = writeTable(at1code[i], cell2, cell3, cell4);
+                        at1weight += weight1;
+                        cell5.innerHTML = at2code[i];
+                        let weight2 = writeTable(at2code[i], cell6, cell7, cell8);
+                        at2weight += weight2;
+                    }
                 }
                 let at1weightdata = document.getElementById('at1weight') as HTMLElement;
                 let at1hour = document.getElementById('at1hour') as HTMLElement;
@@ -203,6 +246,52 @@ export default function Course() {
                 tt1hour.innerHTML = (getHour((bt1weight + at1weight).toFixed(1)) + parseInt(gt1hour.toString())).toString();
                 tt2weight.innerHTML = (bt2weight + at2weight).toFixed(1);
                 tt2hour.innerHTML = (getHour((bt2weight + at2weight).toFixed(1)) + parseInt(gt2hour.toString())).toString();
+                let s1t1 = [item.s1_1t1code, item.s1_2t1code, item.s1_3t1code, item.s1_4t1code, item.s1_5t1code, item.s1_6t1code, item.s1_7t1code, item.s1_8t1code, item.s1_9t1code, item.s1_10t1code]
+                let s1t2 = [item.s1_1t2code, item.s1_2t2code, item.s1_3t2code, item.s1_4t2code, item.s1_5t2code, item.s1_6t2code, item.s1_7t2code, item.s1_8t2code, item.s1_9t2code, item.s1_10t2code]
+                let s2t1 = [item.s2_1t1code, item.s2_2t1code, item.s2_3t1code, item.s2_4t1code, item.s2_5t1code, item.s2_6t1code, item.s2_7t1code, item.s2_8t1code, item.s2_9t1code, item.s2_10t1code]
+                let s2t2 = [item.s2_1t2code, item.s2_2t2code, item.s2_3t2code, item.s2_4t2code, item.s2_5t2code, item.s2_6t2code, item.s2_7t2code, item.s2_8t2code, item.s2_9t2code, item.s2_10t2code]
+                let s1 = document.getElementById('s1div') as HTMLElement;
+                let s1title = document.getElementById('s1') as HTMLElement;
+                let s2 = document.getElementById('s2div') as HTMLElement;
+                let s2title = document.getElementById('s2') as HTMLElement;
+                if (item.s1title != "") {
+                    insertSelectTable(s1, "1");
+                    let table = document.getElementById('s1table') as HTMLTableElement;
+                    s1title.innerHTML = item.s1title;
+                    for (let i = 0; i < parseInt(item.s1row); i++) {
+                        var row = table.insertRow(table.rows.length);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        cell1.innerHTML = s1t1[i];
+                        getName(s1t1[i], cell2);
+                        cell3.innerHTML = s1t2[i];
+                        getName(s1t2[i], cell4);
+                    }
+                } else {
+                    s1.innerHTML = "";
+                    s1title.innerHTML = ""
+                }
+                if (item.s2title != "") {
+                    insertSelectTable(s2, "1");
+                    let table = document.getElementById('s2table') as HTMLTableElement;
+                    s2title.innerHTML = item.s1title;
+                    for (let i = 0; i < parseInt(item.s2row); i++) {
+                        var row = table.insertRow(table.rows.length);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        cell1.innerHTML = s2t1[i];
+                        getName(s2t1[i], cell2);
+                        cell3.innerHTML = s2t2[i];
+                        getName(s2t2[i], cell4);
+                    }
+                } else {
+                    s2.innerHTML = "";
+                    s2title.innerHTML = "";
+                }
             }
         })
     }
@@ -221,6 +310,11 @@ export default function Course() {
                 <h1 id="title" className="text-2xl"></h1>
                 <h1 id="class" className="text-2xl"></h1>
                 <div id="datadiv"></div>
+                <h1 id="stitle" className="text-2xl"></h1>
+                <h1 id="s1" className="text-2xl"></h1>
+                <div id="s1div"></div>
+                <h1 id="s2" className="text-2xl"></h1>
+                <div id="s2div"></div>
             </div>
         </main>
     )
