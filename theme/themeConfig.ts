@@ -42,6 +42,9 @@ const themed: ThemeConfig = {
             colorText: "#f9f9f9",
             algorithm: true
         },
+        Form: {
+            labelColor: "#ffffff",
+        }
     },
 };
 

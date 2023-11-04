@@ -46,21 +46,7 @@ const items: MenuItem[] = [
         getItem("กิจกรรมชุมนุม", "club"),
     ]),
     getItem("วิชาการสวนกุหลาบฯ", "academic", null, [
-        getItem("โครงสร้างแผนการเรียน", "course", null, [
-            getItem("ระดับชั้นมัธยมศึกษาตอนต้น", "middle", null, [
-                getItem("หลักสูตรทั่วไป", "regular-1"),
-                getItem("GATE Program", "gate-1"),
-                getItem("EPLUS+ Program", "eplus-1"),
-            ]),
-            getItem("ระดับชั้นมัธยมศึกษาตอนปลาย", "high", null, [
-                getItem("หลักสูตรทั่วไป", "regular-2"),
-                getItem("ความเป็นเลิศคณิตศาสตร์", "regular-3"),
-                getItem("ความเป็นเลิศวิทยาศาสตร์", "regular-4"),
-                getItem("GATE Program", "gate-2"),
-                getItem("แผนการเรียนวิทยาศาสตร์-คณิตศาสตร์-ภาษา", "france-chinese"),
-                getItem("แผนการเรียนคณิตศาสตร์-ภาษาอังกฤษ", "athletic"),
-            ])
-        ]),
+        getItem("โครงสร้างแผนการเรียน", "course"),
         getItem("รายวิชาที่เปิดสอน", "subjects", null, [
             getItem("ภาษาต่างประเทศ", "language"),
             getItem("วิทยาศาสตร์", "science"),

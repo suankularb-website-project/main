@@ -1,0 +1,417 @@
+[
+    {
+        "key": "1",
+        "name": "101",
+        "type": "gate1"
+    },
+    {
+        "key": "2",
+        "name": "102",
+        "type": "gate1"
+    },
+    {
+        "key": "3",
+        "name": "103",
+        "type": "gate1"
+    },
+    {
+        "key": "4",
+        "name": "104",
+        "type": "gate1"
+    },
+    {
+        "key": "5",
+        "name": "105",
+        "type": "ep1"
+    },
+    {
+        "key": "6",
+        "name": "106",
+        "type": "ep1"
+    },
+    {
+        "key": "7",
+        "name": "107",
+        "type": "1"
+    },
+    {
+        "key": "8",
+        "name": "108",
+        "type": "1"
+    },
+    {
+        "key": "9",
+        "name": "109",
+        "type": "1"
+    },
+    {
+        "key": "10",
+        "name": "110",
+        "type": "1"
+    },
+    {
+        "key": "11",
+        "name": "111",
+        "type": "1"
+    },
+    {
+        "key": "12",
+        "name": "112",
+        "type": "1"
+    },
+    {
+        "key": "13",
+        "name": "113",
+        "type": "1"
+    },
+    {
+        "key": "14",
+        "name": "201",
+        "type": "gate2"
+    },
+    {
+        "key": "15",
+        "name": "202",
+        "type": "gate2"
+    },
+    {
+        "key": "16",
+        "name": "203",
+        "type": "gate2"
+    },
+    {
+        "key": "17",
+        "name": "204",
+        "type": "gate2"
+    },
+    {
+        "key": "18",
+        "name": "205",
+        "type": "ep2"
+    },
+    {
+        "key": "19",
+        "name": "206",
+        "type": "ep2"
+    },
+    {
+        "key": "20",
+        "name": "207",
+        "type": "2(2)"
+    },
+    {
+        "key": "21",
+        "name": "208",
+        "type": "2(2)"
+    },
+    {
+        "key": "22",
+        "name": "209",
+        "type": "2(2)"
+    },
+    {
+        "key": "23",
+        "name": "210",
+        "type": "2(2)"
+    },
+    {
+        "key": "24",
+        "name": "211",
+        "type": "2(3)"
+    },
+    {
+        "key": "25",
+        "name": "212",
+        "type": "2(3)"
+    },
+    {
+        "key": "26",
+        "name": "213",
+        "type": "2(3)"
+    },
+    {
+        "key": "27",
+        "name": "301",
+        "type": "gate3"
+    },
+    {
+        "key": "28",
+        "name": "302",
+        "type": "gate3"
+    },
+    {
+        "key": "29",
+        "name": "303",
+        "type": "gate3"
+    },
+    {
+        "key": "30",
+        "name": "304",
+        "type": "gate3"
+    },
+    {
+        "key": "31",
+        "name": "305",
+        "type": "ep3"
+    },
+    {
+        "key": "32",
+        "name": "306",
+        "type": "ep3"
+    },
+    {
+        "key": "33",
+        "name": "307",
+        "type": "3(2)"
+    },
+    {
+        "key": "34",
+        "name": "308",
+        "type": "3(2)"
+    },
+    {
+        "key": "35",
+        "name": "309",
+        "type": "3(2)"
+    },
+    {
+        "key": "36",
+        "name": "310",
+        "type": "3(2)"
+    },
+    {
+        "key": "37",
+        "name": "311",
+        "type": "3(3)"
+    },
+    {
+        "key": "38",
+        "name": "312",
+        "type": "3(3)"
+    },
+    {
+        "key": "39",
+        "name": "313",
+        "type": "3(3)"
+    },
+    {
+        "key": "40",
+        "name": "401",
+        "type": "gate4"
+    },
+    {
+        "key": "41",
+        "name": "402",
+        "type": "gate4"
+    },
+    {
+        "key": "42",
+        "name": "403",
+        "type": "gate4"
+    },
+    {
+        "key": "43",
+        "name": "404",
+        "type": "giftsci4"
+    },
+    {
+        "key": "44",
+        "name": "405",
+        "type": "ep4"
+    },
+    {
+        "key": "45",
+        "name": "406",
+        "type": "ep4"
+    },
+    {
+        "key": "46",
+        "name": "407",
+        "type": "giftmath4"
+    },
+    {
+        "key": "47",
+        "name": "408",
+        "type": "scimathlang4"
+    },
+    {
+        "key": "48",
+        "name": "409",
+        "type": "mathsci4"
+    },
+    {
+        "key": "49",
+        "name": "410",
+        "type": "mathsci4"
+    },
+    {
+        "key": "50",
+        "name": "411",
+        "type": "mathsci4"
+    },
+    {
+        "key": "51",
+        "name": "412",
+        "type": "mathsci4"
+    },
+    {
+        "key": "52",
+        "name": "413",
+        "type": "mathsci4"
+    },
+    {
+        "key": "53",
+        "name": "414",
+        "type": "matheng4"
+    },
+    {
+        "key": "54",
+        "name": "415",
+        "type": "englang4"
+    },
+    {
+        "key": "55",
+        "name": "501",
+        "type": "gate5"
+    },
+    {
+        "key": "56",
+        "name": "502",
+        "type": "gate5"
+    },
+    {
+        "key": "57",
+        "name": "503",
+        "type": "giftsci5"
+    },
+    {
+        "key": "58",
+        "name": "504",
+        "type": "ep5"
+    },
+    {
+        "key": "59",
+        "name": "505",
+        "type": "ep5"
+    },
+    {
+        "key": "60",
+        "name": "506",
+        "type": "giftmath5"
+    },
+    {
+        "key": "61",
+        "name": "507",
+        "type": "scimathlang5"
+    },
+    {
+        "key": "62",
+        "name": "508",
+        "type": "mathsci5"
+    },
+    {
+        "key": "63",
+        "name": "509",
+        "type": "mathsci5"
+    },
+    {
+        "key": "64",
+        "name": "510",
+        "type": "mathsci5"
+    },
+    {
+        "key": "65",
+        "name": "511",
+        "type": "mathsci5"
+    },
+    {
+        "key": "66",
+        "name": "512",
+        "type": "mathsci5"
+    },
+    {
+        "key": "67",
+        "name": "513",
+        "type": "matheng5"
+    },
+    {
+        "key": "68",
+        "name": "514",
+        "type": "mathpe5"
+    },
+    {
+        "key": "69",
+        "name": "515",
+        "type": "englang5"
+    },
+    {
+        "key": "70",
+        "name": "601",
+        "type": "gate6"
+    },
+    {
+        "key": "71",
+        "name": "602",
+        "type": "gate6"
+    },
+    {
+        "key": "72",
+        "name": "603",
+        "type": "giftsci6"
+    },
+    {
+        "key": "73",
+        "name": "604",
+        "type": "ep6"
+    },
+    {
+        "key": "74",
+        "name": "605",
+        "type": "ep6"
+    },
+    {
+        "key": "75",
+        "name": "606",
+        "type": "giftmath6"
+    },
+    {
+        "key": "76",
+        "name": "607",
+        "type": "scimathlang6"
+    },
+    {
+        "key": "77",
+        "name": "608",
+        "type": "mathsci6"
+    },
+    {
+        "key": "78",
+        "name": "609",
+        "type": "mathsci6"
+    },
+    {
+        "key": "79",
+        "name": "610",
+        "type": "mathsci6"
+    },
+    {
+        "key": "80",
+        "name": "611",
+        "type": "mathsci6"
+    },
+    {
+        "key": "81",
+        "name": "612",
+        "type": "matheng6"
+    },
+    {
+        "key": "82",
+        "name": "613",
+        "type": "mathpe6"
+    },
+    {
+        "key": "83",
+        "name": "614",
+        "type": "englang6"
+    }
+]
