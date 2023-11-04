@@ -15,75 +15,75 @@ function getHour (weight : string) {
 
 function insertTable (div : HTMLElement) {
     div.innerHTML = `
-                <table id="data" style="border: 1px solid white; borderCollapse: collapse;>
-                    <tbody>
-                        <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
-                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=4>ภาคเรียนที่ 1</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=4>ภาคเรียนที่ 2</th>
-                        </tr>
-                        <tr id="nd2" style="border: 1px solid white; borderCollapse: collapse;">
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">นก.</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">ชม.</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">นก.</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">ชม.</th>
-                        </tr>
-                        <tr id="nd3" style="border: 1px solid white; borderCollapse: collapse;">
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาพื้นฐาน</th>
-                            <th id="bt1weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="bt1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาพื้นฐาน</th>
-                            <th id="bt2weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="bt2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                        </tr>
-                        <tr id="nd4">
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาเพิ่มเติม</th>
-                            <th id="at1weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="at1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาเพิ่มเติม</th>
-                            <th id="at2weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="at2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                        </tr>
-                        <tr id="nd5">
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">กิจกรรมพัฒนาผู้เรียน</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="gt1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">กิจกรรมพัฒนาผู้เรียน</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="gt2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                        </tr>
-                        <tr id="nd6">
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รวมเวลาเรียนทั้งหมด</th>
-                            <th id="tt1weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="tt1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รวมเวลาเรียนทั้งหมด</th>
-                            <th id="tt2weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                            <th id="tt2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
-                        </tr>
-                    </tbody>
-                </table>
+        <table id="data" style="border: 1px solid white; borderCollapse: collapse;>
+            <tbody>
+                <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
+                    <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=4>ภาคเรียนที่ 1</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=4>ภาคเรียนที่ 2</th>
+                </tr>
+                <tr id="nd2" style="border: 1px solid white; borderCollapse: collapse;">
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">นก.</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">ชม.</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">นก.</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 2.5vw;">ชม.</th>
+                </tr>
+                <tr id="nd3" style="border: 1px solid white; borderCollapse: collapse;">
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาพื้นฐาน</th>
+                    <th id="bt1weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="bt1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาพื้นฐาน</th>
+                    <th id="bt2weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="bt2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                </tr>
+                <tr id="nd4">
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาเพิ่มเติม</th>
+                    <th id="at1weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="at1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รายวิชาเพิ่มเติม</th>
+                    <th id="at2weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="at2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                </tr>
+                <tr id="nd5">
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">กิจกรรมพัฒนาผู้เรียน</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="gt1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">กิจกรรมพัฒนาผู้เรียน</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="gt2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                </tr>
+                <tr id="nd6">
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รวมเวลาเรียนทั้งหมด</th>
+                    <th id="tt1weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="tt1hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th colSpan=2 style="border: 1px solid white; borderCollapse: collapse;">รวมเวลาเรียนทั้งหมด</th>
+                    <th id="tt2weight" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                    <th id="tt2hour" style="border: 1px solid white; borderCollapse: collapse;"></th>
+                </tr>
+            </tbody>
+        </table>
     `
 }
 
 function insertSelectTable (div: HTMLElement, i: string) {
     div.innerHTML = `
-                <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;>
-                    <tbody>
-                        <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
-                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 1</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 2</th>
-                        </tr>
-                        <tr id="nd2" style="border: 1px solid white; borderCollapse: collapse;">
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
-                            <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
-                        </tr>
-                    </tbody>
-                </table>
+        <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;>
+            <tbody>
+                <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
+                    <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 1</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 2</th>
+                </tr>
+                <tr id="nd2" style="border: 1px solid white; borderCollapse: collapse;">
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                    <th style="border: 1px solid white; borderCollapse: collapse; width: 40vw;">ชื่อวิชา</th>
+                </tr>
+            </tbody>
+        </table>
     `
 }
 
@@ -317,15 +317,15 @@ export default function Course() {
         })
     }
     return (
-        <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
+        <main className="flex flex-col items-center justify-between top-0">
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
                 {contextHolder}
-                <h1 className="text-3xl">โครงสร้างแผนการเรียน</h1>
+                <h1 className="text-3xl font-black">โครงสร้างแผนการเรียน</h1>
                 <Form form={form} onFinish={roomFinish}>
-                    <Form.Item name="room" label="ชั้นเรียน">
+                    <Form.Item name="room" label="ระดับชั้น">
                         <InputNumber />
                     </Form.Item>
-                    <Form.Item>
+                    <Form.Item className="-mt-5">
                         <Button htmlType="submit" type="primary" block>ค้นหา</Button>
                     </Form.Item>
                 </Form>

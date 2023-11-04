@@ -56,7 +56,7 @@ export default function Home() {
                                         hoverable
                                         className="w-full bg-transparent md:h-[21rem] lg:h-80"
                                         title={item.title}
-                                        cover={<div className="md:h-[10.75rem] lg:h-40"><Image alt={item.title} src={item.cover} width={900} height={500} /></div>}
+                                        cover={<div className="md:h-[10.75rem] lg:h-40"><Image alt={item.title} src={item.cover} width={900} height={500} className="max-h-full max-w-full" /></div>}
                                     >
                                         <p className="text-gray-500">{item.description}</p>
                                     </Card>
