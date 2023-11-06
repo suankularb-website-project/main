@@ -1,11 +1,11 @@
 import React from 'react';
 import { ConfigProvider, theme } from 'antd';
 
-import StyledComponentsRegistry from '../lib/AntdRegistry';
-import Navbar from '../components/header';
-import Footer from '../components/footer';
+import StyledComponentsRegistry from '@/lib/AntdRegistry';
+import Navbar from '@/components/header';
+import Footer from '@/components/footer';
 import './globals.css'
-import themed from '../theme/themeConfig';
+import themed from '@/theme/themeConfig';
 
 export const metadata = {
     title: 'โรงเรียนสวนกุหลาบวิทยาลัย',

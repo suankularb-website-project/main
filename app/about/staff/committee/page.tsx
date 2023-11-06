@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Alert, Menu, Space, Table, Tag, Divider } from "antd";
 import type { ColumnsType } from "antd/es/table";
-import m1 from "../../../../config/committee/m1.json"
-import m2 from "../../../../config/committee/m2.json"
-import m3 from "../../../../config/committee/m3.json"
-import m4 from "../../../../config/committee/m4.json"
-import m5 from "../../../../config/committee/m5.json"
-import m6 from "../../../../config/committee/m6.json"
-import leaders from "../../../../config/committee/leader.json"
+import m1 from "@/config/committee/m1.json"
+import m2 from "@/config/committee/m2.json"
+import m3 from "@/config/committee/m3.json"
+import m4 from "@/config/committee/m4.json"
+import m5 from "@/config/committee/m5.json"
+import m6 from "@/config/committee/m6.json"
+import leaders from "@/config/committee/leader.json"
 import React, { Component } from "react";
 
 const classes = [m1, m2, m3, m4, m5, m6]

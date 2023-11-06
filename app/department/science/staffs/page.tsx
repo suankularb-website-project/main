@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card, Row } from "antd";
-import departments from "../../../config/departments/science.json";
+import departments from "@/config/departments/science.json";
 
 export default function Science() {
     return (
