@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button, Card, Carousel } from "antd";
-import links from "../../config/links.json";
+import links from "@/config/links.json";
 
 export default function Links() {
     return (

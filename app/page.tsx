@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import background from "../public/background.png";
+import background from "@/public/background.png";
 import { Button, Card, Carousel } from "antd";
-import newsData from "../config/news.json";
+import newsData from "@/config/news.json";
 
 export default function Home() {
     const news = newsData.slice(0, 6)

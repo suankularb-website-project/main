@@ -1,5 +1,5 @@
 import Image from "next/image";
-import newsData from "../../../config/news.json";
+import newsData from "@/config/news.json";
 import { Card } from "antd";
 
 export function generateStaticParams() {

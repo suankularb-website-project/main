@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import background from "../public/background.png";
+import background from "@/public/background.png";
 import { Button, Card, Carousel } from "antd";
-import downloads from "../../config/downloads.json";
+import downloads from "@/config/downloads.json";
 
 export default function Links() {
     return (
