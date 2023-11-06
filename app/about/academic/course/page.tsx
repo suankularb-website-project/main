@@ -68,7 +68,7 @@ function getHour (weight : string) {
 
 function insertTable (div : HTMLElement) {
     div.innerHTML = `
-        <table id="data" style="border: 1px solid white; borderCollapse: collapse;>
+        <table id="data" style="border: 1px solid white; borderCollapse: collapse;">
             <tbody>
                 <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
                     <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=4>ภาคเรียนที่ 1</th>
@@ -123,7 +123,7 @@ function insertTable (div : HTMLElement) {
 
 function insertSelectTable (div: HTMLElement, i: string) {
     div.innerHTML = `
-        <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;>
+        <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;">
             <tbody>
                 <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
                     <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 1</th>
