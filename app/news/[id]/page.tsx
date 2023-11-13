@@ -4,7 +4,7 @@ import { Card } from "antd";
 
 export function generateStaticParams() {
     return newsData.map((item: any, index: any) => ({
-        id: item.id
+        id: item.id.toString()
     }));
 }
 
