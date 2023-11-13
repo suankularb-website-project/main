@@ -1,0 +1,143 @@
+{
+    "name": "กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ",
+    "staffs": [
+        {
+            "name": "น.ส.อาทิตตยา พุ่มพิบูลย์",
+            "cover": "https://i.ibb.co/LrZ7P7P/for1.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for1"
+        },
+        {
+            "name": "น.ส.วิมลรัตน์ สุดสังข์",
+            "cover": "https://i.ibb.co/3hnSZwP/for2.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for2"
+        },
+        {
+            "name": "น.ส.ประไพพรรณ ปรึกษาตน",
+            "cover": "https://i.ibb.co/9vXLnGC/for3.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for3"
+        },
+        {
+            "name": "นายอติพล สุกฤษฎานนท์",
+            "cover": "https://i.ibb.co/qCLCTLq/for4.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for4"
+        },
+        {
+            "name": "น.ส.จิราภรณ์ เพชรทองหลาง",
+            "cover": "https://i.ibb.co/T83zT7F/for5.png",
+            "type": "ภาษาฝรั่งเศส",
+            "id": "for5"
+        },
+        {
+            "name": "น.ส.จุฎาภรณ์ อินเถิง",
+            "cover": "https://i.ibb.co/ZL39x9Z/for6.png",
+            "type": "ภาษาจีน",
+            "id": "for6"
+        },
+        {
+            "name": "นายณัฐวุฒิ บัวระพันธุ์",
+            "cover": "https://i.ibb.co/CsvymZ7/for7.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for7"
+        },
+        {
+            "name": "นายณัฐสิทธิ์ โคศิลา",
+            "cover": "https://i.ibb.co/CzTwZtV/for8.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for8"
+        },
+        {
+            "name": "นายกิตติวุฒิ เจริญรัมย์",
+            "cover": "https://i.ibb.co/SVKWFDW/for9.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for9"
+        },
+        {
+            "name": "นางนนท์ชนิตร อัมพรพฤติ",
+            "cover": "https://i.ibb.co/wJWFcH4/for10.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for10"
+        },
+        {
+            "name": "น.ส.มัทนา ต๊ะตันยาง",
+            "cover": "https://i.ibb.co/1QSqfDw/for11.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for11"
+        },
+        {
+            "name": "น.ส.ธัญญภัสร์ เจริญพร",
+            "cover": "https://i.ibb.co/J3mXCTV/for12.png",
+            "type": "ภาษาจีน",
+            "id": "for12"
+        },
+        {
+            "name": "นายประสิทธิ์ ประมูลจักโก",
+            "cover": "https://i.ibb.co/m4FyBVj/for13.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for13"
+        },
+        {
+            "name": "น.ส.ดรุณี ล้ำเลิศ",
+            "cover": "https://i.ibb.co/4TJr6WQ/for14.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for14"
+        },
+        {
+            "name": "น.ส.ปริชญา ติชะพันธุ์",
+            "cover": "https://i.ibb.co/bbYgHwK/for15.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for15"
+        },
+        {
+            "name": "นายอร่าม ทองมี",
+            "cover": "https://i.ibb.co/JRrSWfx/for16.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for16"
+        },
+        {
+            "name": "นายเจษฎาภรณ์ ศรีพี",
+            "cover": "https://i.ibb.co/wNSzj3d/for17.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for17"
+        },
+        {
+            "name": "นายปุญญพัฒน์ รัชตะสาคร",
+            "cover": "https://i.ibb.co/cxLFSxW/for18.png",
+            "type": "ภาษาญี่ปุ่น",
+            "id": "for18"
+        },
+        {
+            "name": "นายนัชชา ยืนยงอนันต์",
+            "cover": "https://i.ibb.co/YRQryd6/for19.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for19"
+        },
+        {
+            "name": "นายดรัณภพ กัญญาศักดิ์",
+            "cover": "https://i.ibb.co/3MhdNC3/for20.png",
+            "type": "ภาษาญี่ปุ่น",
+            "id": "for20"
+        },
+        {
+            "name": "น.ส.อริษา ขุราษี",
+            "cover": "https://i.ibb.co/J7jbFgp/for21.png",
+            "type": "ภาษาอังกฤษ",
+            "id": "for21"
+        },
+        {
+            "name": "น.ส.เบญจภา ทรัพย์สิริผล",
+            "cover": "https://i.ibb.co/n6yNqHz/for22.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for22"
+        },
+        {
+            "name": "นายณัฐพล",
+            "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
+            "type": "ภาษาอังกฤษ",
+            "id": "for23"
+        }
+    ]
+}
