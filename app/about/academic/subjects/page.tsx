@@ -5,9 +5,6 @@ import Link from "next/link";
 import { Menu, Select, Button, Form, InputNumber, message } from "antd";
 import { useRouter } from "next/navigation";
 import { useEffect, FormEvent, useState, SetStateAction, JSX } from "react";
-import room from "../../../../config/course/room.json"
-import course from "../../../../config/course/course.json"
-import subject from "../../../../config/course/subject.json"
 
 export default function Course() {
     return (

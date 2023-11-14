@@ -6208,6 +6208,102 @@
         "period": "4"
     },
     {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "401",
+        "room": "!4213",
+        "day": "2",
+        "period": "8"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "401",
+        "room": "!4213",
+        "day": "2",
+        "period": "9"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "402",
+        "room": "!4213",
+        "day": "2",
+        "period": "8"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "402",
+        "room": "!4213",
+        "day": "2",
+        "period": "9"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "401-402",
+        "room": "4213",
+        "day": "2",
+        "period": "8"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "401-402",
+        "room": "4213",
+        "day": "2",
+        "period": "9"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "403",
+        "room": "!4213",
+        "day": "2",
+        "period": "3"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "403",
+        "room": "!4213",
+        "day": "2",
+        "period": "4"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "404",
+        "room": "!4213",
+        "day": "2",
+        "period": "3"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "404",
+        "room": "!4213",
+        "day": "2",
+        "period": "4"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "403-404",
+        "room": "4213",
+        "day": "2",
+        "period": "3"
+    },
+    {
+        "subject": "ว30297",
+        "teacher": "&",
+        "class": "403-404",
+        "room": "4213",
+        "day": "2",
+        "period": "4"
+    },
+    {
         "subject": "ว31184",
         "teacher": "กุลชยา",
         "class": "414",
