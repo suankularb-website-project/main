@@ -22,7 +22,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "105-106*"
     },
     {
         "stitle": "m2s1",
@@ -47,7 +48,8 @@
         "s7t2code": "ง20228",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "201-204*"
     },
     {
         "stitle": "m2ep",
@@ -72,7 +74,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "205-206*"
     },
     {
         "stitle": "m2s2",
@@ -97,7 +100,8 @@
         "s7t2code": "ง20228",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "207-210*"
     },
     {
         "stitle": "m2s3",
@@ -122,7 +126,8 @@
         "s7t2code": "ง20228",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "211-213*"
     },
     {
         "stitle": "m3s1",
@@ -147,7 +152,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "301-304*"
     },
     {
         "stitle": "m3ep",
@@ -172,7 +178,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "305-306*"
     },
     {
         "stitle": "m3s2",
@@ -197,7 +204,8 @@
         "s7t2code": "ศ20210",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "307-310*"
     },
     {
         "stitle": "m3s3",
@@ -222,7 +230,8 @@
         "s7t2code": "ศ20210",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "311-313*"
     },
     {
         "stitle": "m4ep",
@@ -247,7 +256,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "405-406*"
     },
     {
         "stitle": "m4",
@@ -272,7 +282,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "407,409-415*"
     },
     {
         "stitle": "m408",
@@ -297,7 +308,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "408*"
     },
     {
         "stitle": "m415",
@@ -322,7 +334,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "415*"
     },
     {
         "stitle": "m5ep",
@@ -347,7 +360,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "504-505*"
     },
     {
         "stitle": "m5",
@@ -372,7 +386,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "506,508-515*"
     },
     {
         "stitle": "m507",
@@ -397,7 +412,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "507*"
     },
     {
         "stitle": "m514",
@@ -422,7 +438,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "514*"
     },
     {
         "stitle": "m515",
@@ -447,10 +464,11 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "515*"
     },
     {
-        "stitle": "m604",
+        "stitle": "m603",
         "sshow": "วิชาเลือก ภาษาฝรั่งเศส-ภาษาญี่ปุ่น",
         "srow": "2",
         "s1t1code": "ฝ30207",
@@ -472,7 +490,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "603*"
     },
     {
         "stitle": "m6ep",
@@ -497,7 +516,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "604-605*"
     },
     {
         "stitle": "m606",
@@ -522,32 +542,34 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "606*"
     },
     {
         "stitle": "m6",
         "sshow": "วิชาเลือก ม. 612 - 614",
-        "srow": "1",
-        "s1t1code": "...",
-        "s2t1code": "",
-        "s3t1code": "",
-        "s4t1code": "",
-        "s5t1code": "",
-        "s6t1code": "",
+        "srow": "6",
+        "s1t1code": "จ30209",
+        "s2t1code": "ญ30209",
+        "s3t1code": "ฝ30211",
+        "s4t1code": "พ30207",
+        "s5t1code": "ศ30227",
+        "s6t1code": "ง30235",
         "s7t1code": "",
         "s8t1code": "",
         "s9t1code": "",
         "s10t1code": "",
-        "s1t2code": "...",
-        "s2t2code": "",
-        "s3t2code": "",
-        "s4t2code": "",
-        "s5t2code": "",
-        "s6t2code": "",
+        "s1t2code": "จ30210",
+        "s2t2code": "ญ30210",
+        "s3t2code": "ฝ30212",
+        "s4t2code": "พ30208",
+        "s5t2code": "ศ30228",
+        "s6t2code": "ง30236",
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "612-614*"
     },
     {
         "stitle": "m613",
@@ -572,7 +594,8 @@
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "613-614*"
     },
     {
         "stitle": "m614",
@@ -581,8 +604,8 @@
         "s1t1code": "ฝ30275",
         "s2t1code": "จ30275",
         "s3t1code": "ญ30275",
-        "s4t1code": "ค33281",
-        "s5t1code": "พ30213",
+        "s4t1code": "!ค33281",
+        "s5t1code": "!พ30213",
         "s6t1code": "",
         "s7t1code": "",
         "s8t1code": "",
@@ -591,12 +614,13 @@
         "s1t2code": "ฝ30276",
         "s2t2code": "จ30276",
         "s3t2code": "ญ30276",
-        "s4t2code": "ค33282",
-        "s5t2code": "พ30214",
+        "s4t2code": "!ค33282",
+        "s5t2code": "!พ30214",
         "s6t2code": "",
         "s7t2code": "",
         "s8t2code": "",
         "s9t2code": "",
-        "s10t2code": ""
+        "s10t2code": "",
+        "class": "!613-614*,614*"
     }
 ]

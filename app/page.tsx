@@ -3,77 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import background from "@/public/background.png";
-import { Button, Form, InputNumber, Card, Carousel } from "antd";
+import { Button, Form, InputNumber, Card, Carousel, message } from "antd";
 import newsData from "@/config/news.json";
 import TimetableForm from "@/components/timetableForm";
 
 export default function Home() {
-    const [form] = Form.useForm();
-    function Timetable() {
-        const days: string[] = ["จันทร์", "อังคาร", "พุธ", "พฤหัสฯ", "ศุกร์"]
-        let data: string = `
-            <table id="timetable" style="border: 1px solid white; borderCollapse: collapse; width: 70vw;">
-                <tbody>
-                    <tr>
-                        <th></th>
-                        <th>1</th>
-                        <th>2</th>
-                        <th>3</th>
-                        <th>4</th>
-                        <th>5</th>
-                        <th>6</th>
-                        <th>7</th>
-                        <th>8</th>
-                        <th>9</th>
-                        <th>10</th>
-                    </tr>
-                    <tr>
-                        <th>เวลา</th>
-                        <th>08:30-09:20</th>
-                        <th>09:20-10:10</th>
-                        <th>10:10-11:00</th>
-                        <th>11:00-11:50</th>
-                        <th>11:50-12:40</th>
-                        <th>12:40-13:30</th>
-                        <th>13:30-14:20</th>
-                        <th>14:20-15:10</th>
-                        <th>15:10-16:00</th>
-                        <th>16:00-16:50</th>
-                    </tr>
-                    <tr>
-                        <th>ร่นคาบ</th>
-                        <th>08:30-09:10</th>
-                        <th>09:10-09:50</th>
-                        <th>09:50-10:30</th>
-                        <th>10:30-11:10</th>
-                        <th>11:10-11:50</th>
-                        <th>11:50-12:30</th>
-                        <th>12:30-13:10</th>
-                        <th>13:10-13:50</th>
-                        <th>13:50-14:30</th>
-                        <th>14:30-15:10</th>
-                    </tr>
-        `
-        days.map((item, index) => {
-            data = data.concat(`
-                <tr style="border: 1px solid white; borderCollapse: collapse;">
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">${item}</td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">ทดสอบ<br />ครู1<br />ห้อง1</td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                    <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><br /><br /></td>
-                </tr>
-            `)
-        });
-        let table = document.getElementById("timetable") as HTMLElement;
-        table.innerHTML = data.concat("</tbody></table>")
-    }
     const news = newsData.slice(0, 6)
     return (
         <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
