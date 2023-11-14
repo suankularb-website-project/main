@@ -5,7 +5,7 @@ import Link from "next/link";
 import background from "@/public/background.png";
 import { Button, Form, InputNumber, Card, Carousel } from "antd";
 import newsData from "@/config/news.json";
-import form from "antd/es/form";
+import TimetableForm from "@/components/timetableForm";
 
 export default function Home() {
     const [form] = Form.useForm();
@@ -95,22 +95,10 @@ export default function Home() {
                 </div>
             </div>
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <h1 className="text-3xl font-black">ค้นหาตารางเรียน</h1>
-                    <Form form={form} onFinish={Timetable}>
-                        <Form.Item name="room" label="ระดับชั้น">
-                            <InputNumber />
-                        </Form.Item>
-                        <Form.Item className="-mt-5">
-                            <Button htmlType="submit" type="primary" block>ค้นหา</Button>
-                        </Form.Item>
-                    </Form>
-                    <div id="timetable">
-                        
-                    </div>
-                </div>
+                <h3 className="text-lg font-bold">ค้นหาตารางเรียน</h3>
+                <TimetableForm />
             </div>
-            <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
+            <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center pt-4 pb-10 px-10 gap-2" id="content">
                 <div className="flex flex-col items-center justify-center gap-2">
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         {news.map((item, index) => (
