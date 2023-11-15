@@ -19,7 +19,8 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
             <meta charSet="utf-8" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+            <link rel="icon" href="/favicon.ico" sizes="any" />
         </head>
         <body className="bg-black flex flex-col">
             <StyledComponentsRegistry>

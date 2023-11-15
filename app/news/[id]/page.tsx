@@ -3,15 +3,9 @@ import newsData from "@/config/news.json";
 import { Card } from "antd";
 
 export function generateStaticParams() {
-    let params = [];
-    for (let i = 0; i < newsData.length; i++) {
-        params.push({
-            params: {
-                id: newsData[i].id
-            }
-        })
-    }
-    return params;
+    return newsData.map((item: any, index: any) => ({
+        id: item.id.toString()
+    }));
 }
 
 export default function News({ params }: { params: { id: string } }) {

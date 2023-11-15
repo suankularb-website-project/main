@@ -8,6 +8,59 @@ import { useEffect, FormEvent, useState, SetStateAction, JSX } from "react";
 import room from "@/config/course/room.json"
 import course from "@/config/course/course.json"
 import subject from "@/config/course/subject.json"
+import select from "@/config/course/select.json"
+
+interface select {
+    stitle: string;
+    sshow: string;
+    srow: string;
+    s1t1code: string;
+    s2t1code: string;
+    s3t1code: string;
+    s4t1code: string;
+    s5t1code: string;
+    s6t1code: string;
+    s7t1code: string;
+    s8t1code: string;
+    s9t1code: string;
+    s10t1code: string;
+    s1t2code: string;
+    s2t2code: string;
+    s3t2code: string;
+    s4t2code: string;
+    s5t2code: string;
+    s6t2code: string;
+    s7t2code: string;
+    s8t2code: string;
+    s9t2code: string;
+    s10t2code: string;
+}
+
+const selectDef : select = {
+    stitle: "",
+    sshow: "",
+    srow: "",
+    s1t1code: "",
+    s2t1code: "",
+    s3t1code: "",
+    s4t1code: "",
+    s5t1code: "",
+    s6t1code: "",
+    s7t1code: "",
+    s8t1code: "",
+    s9t1code: "",
+    s10t1code: "",
+    s1t2code: "",
+    s2t2code: "",
+    s3t2code: "",
+    s4t2code: "",
+    s5t2code: "",
+    s6t2code: "",
+    s7t2code: "",
+    s8t2code: "",
+    s9t2code: "",
+    s10t2code: ""
+}
 
 function getHour (weight : string) {
     return(parseInt((parseFloat(weight) * 40).toString()))
@@ -15,7 +68,7 @@ function getHour (weight : string) {
 
 function insertTable (div : HTMLElement) {
     div.innerHTML = `
-        <table id="data" style="border: 1px solid white; borderCollapse: collapse;>
+        <table id="data" style="border: 1px solid white; borderCollapse: collapse;">
             <tbody>
                 <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
                     <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=4>ภาคเรียนที่ 1</th>
@@ -70,7 +123,7 @@ function insertTable (div : HTMLElement) {
 
 function insertSelectTable (div: HTMLElement, i: string) {
     div.innerHTML = `
-        <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;>
+        <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;">
             <tbody>
                 <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
                     <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ 1</th>
@@ -84,6 +137,22 @@ function insertSelectTable (div: HTMLElement, i: string) {
                 </tr>
             </tbody>
         </table>
+    `
+}
+
+function insertSelect1Table (div: HTMLElement, i: string, term: string) {
+    div.innerHTML = `
+                <table id="s${i}table" style="border: 1px solid white; borderCollapse: collapse;>
+                    <tbody>
+                        <tr id="nd1" style="border: 1px solid white; borderCollapse: collapse;">
+                            <th style="border: 1px solid white; borderCollapse: collapse;" colSpan=2>ภาคเรียนที่ ${term}</th>
+                        </tr>
+                        <tr id="nd2" style="border: 1px solid white; borderCollapse: collapse;">
+                            <th style="border: 1px solid white; borderCollapse: collapse; width: 5vw;">รหัสวิชา</th>
+                            <th style="border: 1px solid white; borderCollapse: collapse; width: 20vw;">ชื่อวิชา</th>
+                        </tr>
+                    </tbody>
+                </table>
     `
 }
 
@@ -198,6 +267,15 @@ export default function Course() {
                 bt2weightdata.innerHTML = bt2weight.toFixed(1);
                 bt2hour.innerHTML = getHour(bt2weight.toString()).toString();
                 let at1weight = 0, at2weight = 0
+                let sel1: select = selectDef, sel2: select = selectDef;
+                select.map((sitem, sindex) => {
+                    if (sitem.stitle == item.s1title) {
+                        sel1 = sitem;
+                    }
+                    if (sitem.stitle == item.s2title) {
+                        sel2 = sitem;
+                    }
+                })
                 for (let i = 0; i < parseInt(item.addrow); i++) {
                     var row = table.insertRow(table.rows.length - 2);
                     var cell1 = row.insertCell(0);
@@ -209,23 +287,27 @@ export default function Course() {
                     var cell7 = row.insertCell(6);
                     var cell8 = row.insertCell(7);
                     if (at1code[i] == "วิชาเลือก") {
-                        let weight1 = writeTable(item.s1_1t1code, cell2, cell3, cell4);
-                        cell2.innerHTML = item.s1title;
+                        let weight1 = writeTable(sel1.s1t1code, cell2, cell3, cell4);
+                        cell2.innerHTML = sel1.sshow;
                         at1weight += weight1;
-                        let weight2 = writeTable(item.s1_1t2code, cell6, cell7, cell8);
-                        cell6.innerHTML = item.s1title;
-                        at2weight += weight2;
                     } else if (at1code[i] == "วิชาเลือก2") {
-                        let weight1 = writeTable(item.s2_1t1code, cell2, cell3, cell4);
-                        cell2.innerHTML = item.s2title;
+                        let weight1 = writeTable(sel2.s1t1code, cell2, cell3, cell4);
+                        cell2.innerHTML = sel2.sshow;
                         at1weight += weight1;
-                        let weight2 = writeTable(item.s2_1t2code, cell6, cell7, cell8);
-                        cell6.innerHTML = item.s2title;
-                        at2weight += weight2;
                     } else {
                         cell1.innerHTML = at1code[i];
                         let weight1 = writeTable(at1code[i], cell2, cell3, cell4);
                         at1weight += weight1;
+                    }
+                    if (at2code[i] == "วิชาเลือก") {
+                        let weight2 = writeTable(sel1.s1t2code, cell6, cell7, cell8);
+                        cell6.innerHTML = sel1.sshow;
+                        at2weight += weight2;
+                    } else if (at2code[i] == "วิชาเลือก2") {
+                        let weight2 = writeTable(sel2.s1t2code, cell6, cell7, cell8);
+                        cell6.innerHTML = sel2.sshow;
+                        at2weight += weight2;
+                    } else {
                         cell5.innerHTML = at2code[i];
                         let weight2 = writeTable(at2code[i], cell6, cell7, cell8);
                         at2weight += weight2;
@@ -267,47 +349,73 @@ export default function Course() {
                 tt1hour.innerHTML = (getHour((bt1weight + at1weight).toFixed(1)) + parseInt(gt1hour.toString())).toString();
                 tt2weight.innerHTML = (bt2weight + at2weight).toFixed(1);
                 tt2hour.innerHTML = (getHour((bt2weight + at2weight).toFixed(1)) + parseInt(gt2hour.toString())).toString();
-                let s1t1 = [item.s1_1t1code, item.s1_2t1code, item.s1_3t1code, item.s1_4t1code, item.s1_5t1code, item.s1_6t1code, item.s1_7t1code, item.s1_8t1code, item.s1_9t1code, item.s1_10t1code]
-                let s1t2 = [item.s1_1t2code, item.s1_2t2code, item.s1_3t2code, item.s1_4t2code, item.s1_5t2code, item.s1_6t2code, item.s1_7t2code, item.s1_8t2code, item.s1_9t2code, item.s1_10t2code]
-                let s2t1 = [item.s2_1t1code, item.s2_2t1code, item.s2_3t1code, item.s2_4t1code, item.s2_5t1code, item.s2_6t1code, item.s2_7t1code, item.s2_8t1code, item.s2_9t1code, item.s2_10t1code]
-                let s2t2 = [item.s2_1t2code, item.s2_2t2code, item.s2_3t2code, item.s2_4t2code, item.s2_5t2code, item.s2_6t2code, item.s2_7t2code, item.s2_8t2code, item.s2_9t2code, item.s2_10t2code]
+                let s1t1 = [sel1.s1t1code, sel1.s2t1code, sel1.s3t1code, sel1.s4t1code, sel1.s5t1code, sel1.s6t1code, sel1.s7t1code, sel1.s8t1code, sel1.s9t1code, sel1.s10t1code]
+                let s1t2 = [sel1.s1t2code, sel1.s2t2code, sel1.s3t2code, sel1.s4t2code, sel1.s5t2code, sel1.s6t2code, sel1.s7t2code, sel1.s8t2code, sel1.s9t2code, sel1.s10t2code]
+                let s2t1 = [sel2.s1t1code, sel2.s2t1code, sel2.s3t1code, sel2.s4t1code, sel2.s5t1code, sel2.s6t1code, sel2.s7t1code, sel2.s8t1code, sel2.s9t1code, sel2.s10t1code]
+                let s2t2 = [sel2.s1t2code, sel2.s2t2code, sel2.s3t2code, sel2.s4t2code, sel2.s5t2code, sel2.s6t2code, sel2.s7t2code, sel2.s8t2code, sel2.s9t2code, sel2.s10t2code]
                 let s1 = document.getElementById('s1div') as HTMLElement;
                 let s1title = document.getElementById('s1') as HTMLElement;
                 let s2 = document.getElementById('s2div') as HTMLElement;
                 let s2title = document.getElementById('s2') as HTMLElement;
                 if (item.s1title != "") {
-                    insertSelectTable(s1, "1");
+                    if (sel1.s1t1code == "") {
+                        insertSelect1Table(s1, "1", "2")
+                    } else if (sel1.s1t2code == "") {
+                        insertSelect1Table(s1, "1", "1")
+                    } else {
+                        insertSelectTable(s1, "1");
+                    }
                     let table = document.getElementById('s1table') as HTMLTableElement;
-                    s1title.innerHTML = item.s1title;
-                    for (let i = 0; i < parseInt(item.s1row); i++) {
+                    s1title.innerHTML = sel1.sshow;
+                    for (let i = 0; i < parseInt(sel1.srow); i++) {
                         var row = table.insertRow(table.rows.length);
                         var cell1 = row.insertCell(0);
                         var cell2 = row.insertCell(1);
-                        var cell3 = row.insertCell(2);
-                        var cell4 = row.insertCell(3);
-                        cell1.innerHTML = s1t1[i];
-                        getName(s1t1[i], cell2);
-                        cell3.innerHTML = s1t2[i];
-                        getName(s1t2[i], cell4);
+                        if (sel1.s1t1code == "") {
+                            cell1.innerHTML = s1t2[i];
+                            getName(s1t2[i], cell2);
+                        } else {
+                            cell1.innerHTML = s1t1[i];
+                            getName(s1t1[i], cell2);
+                            if (sel1.s1t2code != "") {
+                                var cell3 = row.insertCell(2);
+                                var cell4 = row.insertCell(3);
+                                cell3.innerHTML = s1t2[i];
+                                getName(s1t2[i], cell4);
+                            }
+                        }
                     }
                 } else {
                     s1.innerHTML = "";
                     s1title.innerHTML = ""
                 }
                 if (item.s2title != "") {
-                    insertSelectTable(s2, "1");
+                    if (sel2.s1t1code == "") {
+                        insertSelect1Table(s2, "2", "2")
+                    } else if (sel2.s1t2code == "") {
+                        insertSelect1Table(s2, "2", "1")
+                    } else {
+                        insertSelectTable(s2, "2");
+                    }
                     let table = document.getElementById('s2table') as HTMLTableElement;
-                    s2title.innerHTML = item.s1title;
-                    for (let i = 0; i < parseInt(item.s2row); i++) {
+                    s2title.innerHTML = sel2.sshow;
+                    for (let i = 0; i < parseInt(sel2.srow); i++) {
                         var row = table.insertRow(table.rows.length);
                         var cell1 = row.insertCell(0);
                         var cell2 = row.insertCell(1);
-                        var cell3 = row.insertCell(2);
-                        var cell4 = row.insertCell(3);
-                        cell1.innerHTML = s2t1[i];
-                        getName(s2t1[i], cell2);
-                        cell3.innerHTML = s2t2[i];
-                        getName(s2t2[i], cell4);
+                        if (sel2.s1t1code == "") {
+                            cell1.innerHTML = s2t2[i];
+                            getName(s2t2[i], cell2);
+                        } else {
+                            cell1.innerHTML = s2t1[i];
+                            getName(s2t1[i], cell2);
+                            if (sel2.s1t2code != "") {
+                                var cell3 = row.insertCell(2);
+                                var cell4 = row.insertCell(3);
+                                cell3.innerHTML = s2t2[i];
+                                getName(s2t2[i], cell4);
+                            }
+                        }
                     }
                 } else {
                     s2.innerHTML = "";

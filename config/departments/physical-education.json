@@ -1,0 +1,65 @@
+{
+    "name": "กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา",
+    "staffs": [
+        {
+            "name": "นายวีรชัย คำสมหมาย",
+            "cover": "https://i.ibb.co/jDqW4ss/phy1.jpg",
+            "type": "พลศึกษา",
+            "id": "phy1"
+        },
+        {
+            "name": "น.ส.มัณฑนา ทับทิม",
+            "cover": "https://i.ibb.co/KDV0FFk/phy2.png",
+            "type": "สุขศึกษา",
+            "id": "phy2"
+        },
+        {
+            "name": "นายมณเฑียร กลิ่นเขียว",
+            "cover": "https://i.ibb.co/K6hV76W/phy3.png",
+            "type": "พลศึกษา",
+            "id": "phy3"
+        },
+        {
+            "name": "น.ส.ดาวเรือง บุปผา",
+            "cover": "https://i.ibb.co/Btqp7yb/phy4.png",
+            "type": "สุขศึกษา",
+            "id": "phy4"
+        },
+        {
+            "name": "น.ส.เขมศรี จิรารัตน์",
+            "cover": "https://i.ibb.co/bNQ8Mtx/phy5.png",
+            "type": "สุขศึกษา",
+            "id": "phy5"
+        },
+        {
+            "name": "น.ส.สุชินันท์ งามสมชนม์",
+            "cover": "https://i.ibb.co/nBq7KXN/phy6.png",
+            "type": "สุขศึกษา",
+            "id": "phy6"
+        },
+        {
+            "name": "นายอภิชัย สินแสง",
+            "cover": "https://i.ibb.co/PMsZWvh/phy7.png",
+            "type": "พลศึกษา",
+            "id": "phy7"
+        },
+        {
+            "name": "นายทวีศักดิ์ พรหมแก้ว",
+            "cover": "https://i.ibb.co/hZBRfmr/phy8.png",
+            "type": "พลศึกษา",
+            "id": "phy8"
+        },
+        {
+            "name": "นายคึกฤทธิ์ สิทธิฤทธิ์",
+            "cover": "https://i.ibb.co/kcCVMWC/phy9.png",
+            "type": "พลศึกษา",
+            "id": "phy9"
+        },
+        {
+            "name": "น.ส.ณิชากร แสงอินทร์",
+            "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
+            "type": "สุขศึกษา",
+            "id": "phy10"
+        }
+    ]
+}

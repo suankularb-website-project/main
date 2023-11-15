@@ -1,62 +1,65 @@
-[
-    {
-        "name": "นายนัฐพงศ์ สีนวล",
-        "cover": "https://i.ibb.co/DtKG2Qm/tha1.png",
-        "id": "tha1"
-    },
-    {
-        "name": "นายวรากร ใจดี",
-        "cover": "https://i.ibb.co/47WpbYH/tha2.png",
-        "id": "tha2"
-    },
-    {
-        "name": "นางวงดาว สุภาเกตุ",
-        "cover": "https://i.ibb.co/yXSMhLs/tha3.png",
-        "id": "tha3"
-    },
-    {
-        "name": "น.ส.เสาวลักษณ์ ทักษิณากุล",
-        "cover": "https://i.ibb.co/mBZjxvJ/tha4.png",
-        "id": "tha4"
-    },
-    {
-        "name": "นายโกญจนาท คูณพูล",
-        "cover": "https://i.ibb.co/5cy0Bgz/tha5.png",
-        "id": "tha5"
-    },
-    {
-        "name": "น.ส.สุภาภรณ์ ขวัญสุวรรณ",
-        "cover": "https://i.ibb.co/WtyFktv/tha6.png",
-        "id": "tha6"
-    },
-    {
-        "name": "น.ส.อุมาพร พิมพ์สุตะ",
-        "cover": "https://i.ibb.co/Fbyc69K/tha7.png",
-        "id": "tha7"
-    },
-    {
-        "name": "นายยุทธพงษ์ หอมขจร",
-        "cover": "https://i.ibb.co/VQP3QBz/tha8.png",
-        "id": "tha8"
-    },
-    {
-        "name": "น.ส.หทัยชนก ปกป้อง",
-        "cover": "https://i.ibb.co/1fp1rCK/tha9.png",
-        "id": "tha9"
-    },
-    {
-        "name": "นายธนกร วิลาวรรณ",
-        "cover": "https://i.ibb.co/yX2kKgW/tha10.png",
-        "id": "tha10"
-    },
-    {
-        "name": "นายศุภวุฑิ จอมศรี",
-        "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
-        "id": "tha11"
-    },
-    {
-        "name": "น.ส.ธนภรณ์ เปรมทอง",
-        "cover": "https://i.ibb.co/3rxV0c0/tha12.png",
-        "id": "tha12"
-    }
-]
+{
+    "name": "กลุ่มสาระการเรียนรู้ภาษาไทย",
+    "staffs": [
+        {
+            "name": "นายนัฐพงศ์ สีนวล",
+            "cover": "https://i.ibb.co/DtKG2Qm/tha1.png",
+            "id": "tha1"
+        },
+        {
+            "name": "นายวรากร ใจดี",
+            "cover": "https://i.ibb.co/47WpbYH/tha2.png",
+            "id": "tha2"
+        },
+        {
+            "name": "นางวงดาว สุภาเกตุ",
+            "cover": "https://i.ibb.co/yXSMhLs/tha3.png",
+            "id": "tha3"
+        },
+        {
+            "name": "น.ส.เสาวลักษณ์ ทักษิณากุล",
+            "cover": "https://i.ibb.co/mBZjxvJ/tha4.png",
+            "id": "tha4"
+        },
+        {
+            "name": "นายโกญจนาท คูณพูล",
+            "cover": "https://i.ibb.co/5cy0Bgz/tha5.png",
+            "id": "tha5"
+        },
+        {
+            "name": "น.ส.สุภาภรณ์ ขวัญสุวรรณ",
+            "cover": "https://i.ibb.co/WtyFktv/tha6.png",
+            "id": "tha6"
+        },
+        {
+            "name": "น.ส.อุมาพร พิมพ์สุตะ",
+            "cover": "https://i.ibb.co/Fbyc69K/tha7.png",
+            "id": "tha7"
+        },
+        {
+            "name": "นายยุทธพงษ์ หอมขจร",
+            "cover": "https://i.ibb.co/VQP3QBz/tha8.png",
+            "id": "tha8"
+        },
+        {
+            "name": "น.ส.หทัยชนก ปกป้อง",
+            "cover": "https://i.ibb.co/1fp1rCK/tha9.png",
+            "id": "tha9"
+        },
+        {
+            "name": "นายธนกร วิลาวรรณ",
+            "cover": "https://i.ibb.co/yX2kKgW/tha10.png",
+            "id": "tha10"
+        },
+        {
+            "name": "นายศุภวุฑิ จอมศรี",
+            "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
+            "id": "tha11"
+        },
+        {
+            "name": "น.ส.ธนภรณ์ เปรมทอง",
+            "cover": "https://i.ibb.co/3rxV0c0/tha12.png",
+            "id": "tha12"
+        }
+    ]
+}

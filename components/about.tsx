@@ -47,17 +47,7 @@ const items: MenuItem[] = [
     ]),
     getItem("วิชาการสวนกุหลาบฯ", "academic", null, [
         getItem("โครงสร้างแผนการเรียน", "course"),
-        getItem("รายวิชาที่เปิดสอน", "subjects", null, [
-            getItem("ภาษาต่างประเทศ", "language"),
-            getItem("วิทยาศาสตร์", "science"),
-            getItem("สุขศึกษาและพลศึกษา", "health"),
-            getItem("การงานอาชีพและเทคโนโลยี", "technology"),
-            getItem("ศิลปะ", "art"),
-            getItem("สังคมศึกษา ศาสนา และวัฒนธรรม", "social"),
-            getItem("คณิตศาสตร์", "math"),
-            getItem("ภาษาไทย", "thai"),
-            getItem("การศึกษาค้นคว้าด้วยตนเอง", "is")
-        ]),
+        getItem("ประมวลรายวิชา", "subjects"),
         getItem("โครงการพิเศษ", "programs", null, [
             getItem("GATE Program", "gate"),
             getItem("EPLUS+ Program", "eplus"),

@@ -1,8 +1,11 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import background from "@/public/background.png";
-import { Button, Card, Carousel } from "antd";
+import { Button, Form, InputNumber, Card, Carousel, message } from "antd";
 import newsData from "@/config/news.json";
+import TimetableForm from "@/components/timetableForm";
 
 export default function Home() {
     const news = newsData.slice(0, 6)
@@ -26,6 +29,10 @@ export default function Home() {
                 </div>
             </div>
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
+                <h3 className="text-lg font-bold">ค้นหาตารางเรียน</h3>
+                <TimetableForm />
+            </div>
+            <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center pt-4 pb-10 px-10 gap-2" id="content">
                 <div className="flex flex-col items-center justify-center gap-2">
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         {news.map((item, index) => (
