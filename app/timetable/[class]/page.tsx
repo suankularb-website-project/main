@@ -24,49 +24,49 @@ export default function TimetablePage({ params }: { params: { class: string } })
         let data: string = `
             <table id="timetable" style="border: 1px solid white; borderCollapse: collapse; width: 70vw;">
                 <tbody>
-                    <tr style="font-size: 95%;">
-                        <th></th>
-                        <th>1</th>
-                        <th>2</th>
-                        <th>3</th>
-                        <th>4</th>
-                        <th>5</th>
-                        <th>6</th>
-                        <th>7</th>
-                        <th>8</th>
-                        <th>9</th>
-                        <th>10</th>
+                    <tr style="border: 1px solid white; borderCollapse: collapse; font-size: 95%; font-weight: normal;">
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">คาบที่</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">1</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">2</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">3</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">4</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">5</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">6</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">7</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">8</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">9</th>
+                        <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">10</th>
                     </tr>
-                    <tr style="font-size: 95%;">
-                        <th>เวลา</th>
-                        <th>08:30-09:20</th>
-                        <th>09:20-10:10</th>
-                        <th>10:10-11:00</th>
-                        <th>11:00-11:50</th>
-                        <th>11:50-12:40</th>
-                        <th>12:40-13:30</th>
-                        <th>13:30-14:20</th>
-                        <th>14:20-15:10</th>
-                        <th>15:10-16:00</th>
-                        <th>16:00-16:50</th>
+                    <tr style="border: 1px solid white; borderCollapse: collapse; font-size: 80%;">
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">เวลา</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">08:30-09:20</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">09:20-10:10</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">10:10-11:00</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">11:00-11:50</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">11:50-12:40</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">12:40-13:30</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">13:30-14:20</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">14:20-15:10</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">15:10-16:00</th>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">16:00-16:50</th>
                     </tr>
-                    <tr style="font-size: 95%; text-align: center;">
-                        <td>ร่นคาบ</td>
-                        <td>08:30-09:10</td>
-                        <td>09:10-09:50</td>
-                        <td>09:50-10:30</td>
-                        <td>10:30-11:10</td>
-                        <td>11:10-11:50</td>
-                        <td>11:50-12:30</td>
-                        <td>12:30-13:10</td>
-                        <td>13:10-13:50</td>
-                        <td>13:50-14:30</td>
-                        <td>14:30-15:10</td>
+                    <tr style="border: 1px solid white; borderCollapse: collapse;  font-size: 80%; text-align: center;">
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">ร่นคาบ</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">08:30-09:10</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">09:10-09:50</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">09:50-10:30</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">10:30-11:10</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">11:10-11:50</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">11:50-12:30</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">12:30-13:10</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">13:10-13:50</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">13:50-14:30</td>
+                        <td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">14:30-15:10</td>
                     </tr>
         `
 
         days.map((item, index) => {
-            data = data.concat(`<tr style="border: 1px solid white; borderCollapse: collapse;"><td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">${item}</td>`)
+            data = data.concat(`<tr style="border: 1px solid white; borderCollapse: collapse; font-size: 80%;"><td style="border: 1px solid white; borderCollapse: collapse; text-align: center;">${item}</td>`)
             period.map((pitem, pindex) => {
                 let get: boolean = false;
                 timetable.map((titem, tindex) => {
@@ -87,12 +87,12 @@ export default function TimetablePage({ params }: { params: { class: string } })
                         if (titem.room[0] == '!') {
                             room = titem.room.slice(1);
                         }
-                        data = data.concat(`<td width="9.5%" style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><span style="font-size: 100%;">${subj}</span><span style="font-size: 90%;"><br />${teacher}<br />${room}</span></td>`)
+                        data = data.concat(`<td width="9.5%" style="border: 1px solid white; borderCollapse: collapse; text-align: center;">${subj}<span><br />${teacher}<br />${room}</span></td>`)
                         get = true;
                     }
                 })
                 if (!get) {
-                    data = data.concat(`<td width="9.5%" style="border: 1px solid white; borderCollapse: collapse; text-align: center; font-size: 90%;"><br /><br /></td>`)
+                    data = data.concat(`<td width="9.5%" style="border: 1px solid white; borderCollapse: collapse; text-align: center; font-size: 80%;"><br /><br /></td>`)
                 }
             })
             data = data.concat("</tr>")
