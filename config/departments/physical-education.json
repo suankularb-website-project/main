@@ -5,61 +5,71 @@
             "name": "นายวีรชัย คำสมหมาย",
             "cover": "https://i.ibb.co/jDqW4ss/phy1.jpg",
             "type": "พลศึกษา",
-            "id": "phy1"
+            "id": "phy1",
+            "short": "วีรชัย"
         },
         {
             "name": "น.ส.มัณฑนา ทับทิม",
             "cover": "https://i.ibb.co/KDV0FFk/phy2.png",
             "type": "สุขศึกษา",
-            "id": "phy2"
+            "id": "phy2",
+            "short": "มัณฑนา"
         },
         {
             "name": "นายมณเฑียร กลิ่นเขียว",
             "cover": "https://i.ibb.co/K6hV76W/phy3.png",
             "type": "พลศึกษา",
-            "id": "phy3"
+            "id": "phy3",
+            "short": "มณเฑียร"
         },
         {
             "name": "น.ส.ดาวเรือง บุปผา",
             "cover": "https://i.ibb.co/Btqp7yb/phy4.png",
             "type": "สุขศึกษา",
-            "id": "phy4"
+            "id": "phy4",
+            "short": "ดาวเรือง"
         },
         {
             "name": "น.ส.เขมศรี จิรารัตน์",
             "cover": "https://i.ibb.co/bNQ8Mtx/phy5.png",
             "type": "สุขศึกษา",
-            "id": "phy5"
+            "id": "phy5",
+            "short": "เขมศรี"
         },
         {
             "name": "น.ส.สุชินันท์ งามสมชนม์",
             "cover": "https://i.ibb.co/nBq7KXN/phy6.png",
             "type": "สุขศึกษา",
-            "id": "phy6"
+            "id": "phy6",
+            "short": "สุชินันท์"
         },
         {
             "name": "นายอภิชัย สินแสง",
             "cover": "https://i.ibb.co/PMsZWvh/phy7.png",
             "type": "พลศึกษา",
-            "id": "phy7"
+            "id": "phy7",
+            "short": "อภิชัย"
         },
         {
             "name": "นายทวีศักดิ์ พรหมแก้ว",
             "cover": "https://i.ibb.co/hZBRfmr/phy8.png",
             "type": "พลศึกษา",
-            "id": "phy8"
+            "id": "phy8",
+            "short": "ทวีศักดิ์"
         },
         {
             "name": "นายคึกฤทธิ์ สิทธิฤทธิ์",
             "cover": "https://i.ibb.co/kcCVMWC/phy9.png",
             "type": "พลศึกษา",
-            "id": "phy9"
+            "id": "phy9",
+            "short": "คึกฤทธิ์"
         },
         {
             "name": "น.ส.ณิชากร แสงอินทร์",
             "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
             "type": "สุขศึกษา",
-            "id": "phy10"
+            "id": "phy10",
+            "short": "ณิชากร"
         }
     ]
 }

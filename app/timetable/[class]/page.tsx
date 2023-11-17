@@ -17,12 +17,44 @@ export function generateStaticParams() {
 }
 
 export default function TimetablePage({ params }: { params: { class: string } }) {
+    function tname(name: string) {
+        if (name[0] == 'น' && name[1] == 'า') {
+            return name.slice(3);
+        } else if (name[0] == 'น') {
+            return name.slice(4);
+        } else {
+            return name.slice(11);
+        }
+    }
+    function teacher(classr: string) {
+        let data: string = "ครูที่ปรึกษา ";
+        let room = [m1, m2, m3, m4, m5, m6];
+        room[parseInt(classr[0]) - 1].map((item, index) => {
+            if (item.classroom == "ม. " + classr) {
+                data = data.concat("ครู" + tname(item.teacher1));
+                if (item.teacher2 != "") {
+                    data = data.concat(", ครู" + tname(item.teacher2));
+                }
+            }
+        })
+        return data;
+    }
+    function homeroom(classr: string) {
+        let room = [m1, m2, m3, m4, m5, m6];
+        let hr: string = "";
+        room[parseInt(classr[0]) - 1].map((item, index) => {
+            if (item.classroom == "ม. " + classr) {
+                hr = item.homeroom;
+            }
+        })
+        return hr;
+    }
     function Timetable(classr: string) {
         let list = 1;
         const days: string[] = ["จันทร์", "อังคาร", "พุธ", "พฤหัสฯ", "ศุกร์"]
         const period: string[] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
         let data: string = `
-            <table id="timetable" style="border: 1px solid white; borderCollapse: collapse; width: 70vw;">
+            <table id="timetable" style="border: 1px solid white; borderCollapse: collapse; width: 1100px;">
                 <tbody>
                     <tr style="border: 1px solid white; borderCollapse: collapse; font-size: 95%; font-weight: normal;">
                         <th style="border: 1px solid white; borderCollapse: collapse; text-align: center;">คาบที่</th>
@@ -87,7 +119,7 @@ export default function TimetablePage({ params }: { params: { class: string } })
                         if (titem.room[0] == '!') {
                             room = titem.room.slice(1);
                         }
-                        data = data.concat(`<td width="9.5%" style="border: 1px solid white; borderCollapse: collapse; text-align: center;">${subj}<span><br />${teacher}<br />${room}</span></td>`)
+                        data = data.concat(`<td width="9.5%" style="border: 1px solid white; borderCollapse: collapse; text-align: center;"><span style="font-size: 120%;">${subj}</span><br />${teacher}<br />${room}</td>`)
                         get = true;
                     }
                 })
@@ -101,9 +133,13 @@ export default function TimetablePage({ params }: { params: { class: string } })
         return parse(data + "</tbody></table>");
     }
     return (
-        <main className="flex flex-col items-center justify-between top-0">
-            <div id="timetable">
-                {Timetable(params.class)}
+        <main className="flex flex-col justify-between items-center top-0">
+            <p>โรงเรียนสวนกุหลาบวิทยาลัย</p>
+            <p>ภาคเรียนที่ {info.semester} ปีการศึกษา {info.year}</p>
+            <p>ตารางเรียน ม. {params.class} ห้องเรียนประจำ {homeroom(params.class)}</p>
+            <p>{teacher(params.class)}</p>
+            <div id="timetable" style={{overflow: "scroll", width: "100vw"}}>
+                <center>{Timetable(params.class)}</center>
             </div>
         </main>
     )
