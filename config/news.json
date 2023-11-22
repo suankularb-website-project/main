@@ -42,7 +42,8 @@
         "title": "การสอบธรรมศึกษา",
         "description": "ให้นักเรียนตรวจสอบรายชื่อการสอบธรรมศึกษา ประจำปี 2566 โรงเรียนสวนกุหลาบวิทยาลัย",
         "cover": "http://96.30.126.41/sk/userfiles/images/%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C%202565(1).jpg",
-        "id": 11
+        "id": 11,
+        "dept": "social-studies"
     },
     {
         "title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อเป็นลูกจ้างชั่วคราว ตำแหน่งเจ้าหน้าที่ Gate program",
@@ -56,7 +57,8 @@
         "description": "ประกาศโรงเรียนสวนกุหลาบวิทยาลัย\nเรื่อง รับสมัครคัดเลือกบุคคลเพื่อเป็นลูกจ้างชั่วคราว ตำแหน่งครูผู้สอนสังคมศึกษา",
         "cover": "http://96.30.126.41/sk/userfiles/images/download(2).png",
         "file": "https://drive.google.com/file/d/10ynfm0SGpoSgh-dZeq45MQQyhsZgW3re/preview",
-        "id": 9
+        "id": 9,
+        "dept": "social-studies"
     },
     {
         "title": "ประกาศรับสมัครเจ้าหน้าที่จ้างเหมาบริการ ตำแหน่งเจ้าหน้าที่งานบุคลากร",
@@ -83,7 +85,8 @@
         "description": "ผลการเรียกนักเรียนตัวสำรองเข้าร่วมโครงการโอลิมปิกวิชาการ สอวน. คณิตศาสตร์",
         "cover": "http://96.30.126.41/sk/userfiles/images/Screenshot%202023-09-27%20121413.jpg",
         "file": "https://drive.google.com/file/d/1mFh9pXvoYiKVTD68JfFEFr-qVB4fZStB/preview",
-        "id": 5
+        "id": 5,
+        "dept": "mathematics"
     },
     {
         "title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อเป็นลูกจ้างชั่วคราว",
@@ -97,20 +100,23 @@
         "description": "ผลการสอบคัดเลือกนักเรียนเข้าอบรมโอลิมปิกวิชาการ สอวน. ค่าย 1 วิชาดาราศาสตร์",
         "cover": "http://96.30.126.41/sk/userfiles/images/Screenshot%202023-09-15%20165517.png",
         "file": "https://drive.google.com/file/d/1k1-8OZeqTm2yin_I1DmX0uiBHzMKa6fj/preview",
-        "id": 3
+        "id": 3,
+        "dept": "science"
     },
     {
         "title": "สอวน. ภูมิศาสตร์",
         "description": "ผลการสอบคัดเลือกนักเรียนเข้าอบรมโอลิมปิกวิชาการ สอวน. ค่าย 1 วิชาภูมิศาสตร์",
         "cover": "http://96.30.126.41/sk/userfiles/images/%E0%B8%AA%E0%B8%AD%E0%B8%A7%E0%B8%99_%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C.jpg",
         "file": "https://drive.google.com/file/d/1sBuwWbp3_lXIKd5nslGXeDkVG-IKqZf7/preview",
-        "id": 2
+        "id": 2,
+        "dept": "social-studies"
     },
     {
         "title": "การสอบธรรมศึกษา",
         "description": "กำหนดการการสอบธรรมศึกษา ประจำปีการศึกษา 2566",
         "cover": "http://96.30.126.41/sk/userfiles/images/Untitled(6).jpg",
         "file": "https://drive.google.com/file/d/1hqNZv2mFMsNCwJTr4KIy-C6T0TO8xqUs/preview",
-        "id": 1
+        "id": 1,
+        "dept": "social-studies"
     }
 ]
