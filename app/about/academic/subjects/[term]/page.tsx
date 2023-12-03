@@ -6,6 +6,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
+export async function generateStaticParams() {
+    return ["1", "2"].map((item) => ({
+       term: item
+   }));
+}
+
 function foreign(subj: string) {
     if (subj == 'อ' || subj == 'จ' || subj == 'ญ' || subj == 'ฝ') {
         return 'ต';

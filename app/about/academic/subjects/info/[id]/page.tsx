@@ -54,6 +54,58 @@ function thaiSubj(subj: string) {
     return dept + data;
 }
 
+function engSubj(subj: string) {
+    let data: string = subj.slice(1);
+    let dept: string = subj.slice(0, 1);
+    switch(dept) {
+        case 'ว':
+            dept = 'sci';
+            break;
+        case 'ค':
+            dept = 'mat';
+            break;
+        case 'อ':
+            dept = 'eng';
+            break;
+        case 'จ':
+            dept = 'chi';
+            break;
+        case 'ญ':
+            dept = 'jap';
+            break;
+        case 'ฝ':
+            dept = 'fra';
+            break;
+        case 'ท':
+            dept = 'tha';
+            break;
+        case 'ส':
+            dept = 'soc';
+            break;
+        case 'พ':
+            dept = 'phy';
+            break;
+        case 'ศ':
+            dept = 'art';
+            break;
+        case 'ง':
+            dept = 'car';
+            break;
+        case 'I':
+            dept = 'is_';
+            break;
+        case 'ก':
+            dept = 'act';
+    }
+    return dept + data;
+}
+
+export async function generateStaticParams() {
+    return subject.map((item) => ({
+       id: engSubj(item.code)
+   }));
+}
+
 export default function Course({ params }: { params: { id: string }}) {
     const subj = subject.filter((item) => item.code.toString() == thaiSubj(params.id))[0]
     return (
