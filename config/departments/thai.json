@@ -4,62 +4,74 @@
         {
             "name": "นายนัฐพงศ์ สีนวล",
             "cover": "https://i.ibb.co/DtKG2Qm/tha1.png",
-            "id": "tha1"
+            "id": "tha1",
+            "short": "นัฐพงศ์"
         },
         {
             "name": "นายวรากร ใจดี",
             "cover": "https://i.ibb.co/47WpbYH/tha2.png",
-            "id": "tha2"
+            "id": "tha2",
+            "short": "วรากร"
         },
         {
             "name": "นางวงดาว สุภาเกตุ",
             "cover": "https://i.ibb.co/yXSMhLs/tha3.png",
-            "id": "tha3"
+            "id": "tha3",
+            "short": "วงดาว"
         },
         {
             "name": "น.ส.เสาวลักษณ์ ทักษิณากุล",
             "cover": "https://i.ibb.co/mBZjxvJ/tha4.png",
-            "id": "tha4"
+            "id": "tha4",
+            "short": "เสาวลักษณ์(ท)"
         },
         {
             "name": "นายโกญจนาท คูณพูล",
             "cover": "https://i.ibb.co/5cy0Bgz/tha5.png",
-            "id": "tha5"
+            "id": "tha5",
+            "short": "โกญจนาท"
         },
         {
             "name": "น.ส.สุภาภรณ์ ขวัญสุวรรณ",
             "cover": "https://i.ibb.co/WtyFktv/tha6.png",
-            "id": "tha6"
+            "id": "tha6",
+            "short": "สุภาภรณ์(ข)"
         },
         {
             "name": "น.ส.อุมาพร พิมพ์สุตะ",
             "cover": "https://i.ibb.co/Fbyc69K/tha7.png",
-            "id": "tha7"
+            "id": "tha7",
+            "short": "อุมาพร"
         },
         {
             "name": "นายยุทธพงษ์ หอมขจร",
             "cover": "https://i.ibb.co/VQP3QBz/tha8.png",
-            "id": "tha8"
+            "id": "tha8",
+            "short": "ยุทธพงษ์"
         },
         {
             "name": "น.ส.หทัยชนก ปกป้อง",
             "cover": "https://i.ibb.co/1fp1rCK/tha9.png",
-            "id": "tha9"
+            "id": "tha9",
+            "short": "หทัยชนก"
         },
         {
             "name": "นายธนกร วิลาวรรณ",
             "cover": "https://i.ibb.co/yX2kKgW/tha10.png",
-            "id": "tha10"
+            "id": "tha10",
+            "short": "ธนกร(ว)"
         },
         {
             "name": "นายศุภวุฑิ จอมศรี",
             "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
-            "id": "tha11"
+            "id": "tha11",
+            "short": "ศุภวุฑิ"
         },
         {
             "name": "น.ส.ธนภรณ์ เปรมทอง",
             "cover": "https://i.ibb.co/3rxV0c0/tha12.png",
-            "id": "tha12"
+            "id": "tha12",
+            "short": "ธนภรณ์"
         }
     ]
 }

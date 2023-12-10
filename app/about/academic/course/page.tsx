@@ -10,6 +10,14 @@ import course from "@/config/course/course.json"
 import subject from "@/config/course/subject.json"
 import select from "@/config/course/select.json"
 
+let subjects: any[] = [];
+
+for (let i = 0; i < subject.length; i++) {
+    for (let j = 0; j < subject[i].subjects.length; j++) {
+        subjects.push(subject[i].subjects[j]);
+    }
+}
+
 interface select {
     stitle: string;
     sshow: string;
@@ -158,7 +166,7 @@ function insertSelect1Table (div: HTMLElement, i: string, term: string) {
 
 function writeTable(code: string, cell2: HTMLTableCellElement, cell3: HTMLTableCellElement, cell4: HTMLTableCellElement) {
     let weight: number = 0;
-    subject.map((item, index) => {
+    subjects.map((item, index) => {
         if (item.code == code) {
             cell2.innerHTML = item.name;
             weight = parseFloat(item.weight);
@@ -173,7 +181,7 @@ function writeTable(code: string, cell2: HTMLTableCellElement, cell3: HTMLTableC
 
 function writeTableGuide(code: string, cell2: HTMLTableCellElement, cell3: HTMLTableCellElement, cell4: HTMLTableCellElement) {
     let hour: number = 0;
-    subject.map((item, index) => {
+    subjects.map((item, index) => {
         if (item.code == code) {
             cell2.innerHTML = item.name;
             cell3.innerHTML = "";
@@ -187,7 +195,7 @@ function writeTableGuide(code: string, cell2: HTMLTableCellElement, cell3: HTMLT
 }
 
 function getName (code: string, cell2: HTMLTableCellElement) {
-    subject.map((item, index) => {
+    subjects.map((item, index) => {
         if (item.code == code) {
             cell2.innerHTML = item.name;
         }

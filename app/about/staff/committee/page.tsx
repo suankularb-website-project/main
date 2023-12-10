@@ -38,9 +38,13 @@ const classColumns: ColumnsType<any> = [
         title: "ครูที่ปรึกษา",
         dataIndex: "teacher",
         key: "teacher",
-        render: (text: any, record: any, index: any) => (
-            <span>{record.teacher1} | {record.teacher2}</span>
-        )
+        render: (text: any, record: any, index: any) => {
+            if (record.teacher2 == "") {
+                return <span>{record.teacher1}</span>
+            } else {
+                return <span>{record.teacher1}, {record.teacher2}</span>
+            }
+        }
     },
     {
         title: "ห้องเรียนประจำ",

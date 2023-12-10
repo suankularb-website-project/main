@@ -5,283 +5,330 @@
             "name": "นายหัสวนัส เพ็งสันเทียะ",
             "cover": "https://i.ibb.co/C1S3Ch7/sci1.png",
             "type": "ชีววิทยา",
-            "id": "sci1"
+            "id": "sci1",
+            "short": "หัสวนัส"
         },
         {
             "name": "นายวสันต์ อยู่เชื้อ",
             "cover": "https://i.ibb.co/1QHSJ4z/sci2.png",
             "type": "ชีววิทยา",
-            "id": "sci2"
+            "id": "sci2",
+            "short": "วสันต์"
         },
         {
             "name": "นายณัฐพงศ์ แตงเพ็ชร์",
             "cover": "https://i.ibb.co/dmHs06H/sci3.png",
             "type": "ชีววิทยา",
-            "id": "sci3"
+            "id": "sci3",
+            "short": "ณัฐพงศ์(ต)"
         },
         {
             "name": "น.ส.พรลภัส เสวกะ",
             "cover": "https://i.ibb.co/R9ySjPp/sci4.jpg",
             "type": "เคมี",
-            "id": "sci4"
+            "id": "sci4",
+            "short": "พรลภัส"
         },
         {
             "name": "น.ส.อัญชลี มูลแก้ว",
             "cover": "https://i.ibb.co/N3f9ST9/sci5.png",
             "type": "ฟิสิกส์",
-            "id": "sci5"
+            "id": "sci5",
+            "short": "อัญชลี"
         },
         {
             "name": "น.ส.พลอยไพลิน มิ่งทอง",
             "cover": "https://i.ibb.co/0qLH4hF/sci6.png",
             "type": "ฟิสิกส์",
-            "id": "sci6"
+            "id": "sci6",
+            "short": "พลอยไพลิน"
         },
         {
             "name": "น.ส.อัญชานา นิ่มอนุสสรณ์กุล",
             "cover": "https://i.ibb.co/h8pYkxb/sci7.png",
             "type": "เคมี",
-            "id": "sci7"
+            "id": "sci7",
+            "short": "อัญชานา"
         },
         {
             "name": "นายบัญชาพร อรุณเลิศอารีย์",
             "cover": "https://i.ibb.co/fNPZ66G/sci8.png",
             "type": "ชีววิทยา",
-            "id": "sci8"
+            "id": "sci8",
+            "short": "บัญชาพร"
         },
         {
             "name": "น.ส.ปิยมาศ ศรีสมพันธ์",
             "cover": "https://i.ibb.co/QkSRf1D/sci9.png",
             "type": "เคมี",
-            "id": "sci9"
+            "id": "sci9",
+            "short": "ปิยมาศ"
         },
         {
             "name": "นายประจักษ์ มิ่งทุม",
             "cover": "https://i.ibb.co/x7gVv9T/sci10.png",
             "type": "เคมี",
-            "id": "sci10"
+            "id": "sci10",
+            "short": "ประจักษ์"
         },
         {
             "name": "นายญาธิป คล้ายกล่ำ",
             "cover": "https://i.ibb.co/wzrCg2P/sci11.png",
             "type": "เคมี",
-            "id": "sci11"
+            "id": "sci11",
+            "short": "ญาธิป"
         },
         {
             "name": "น.ส.ชมพูนุช เพ็ญจันทร์",
             "cover": "https://i.ibb.co/YZcZCBF/sci12.png",
             "type": "ฟิสิกส์",
-            "id": "sci12"
+            "id": "sci12",
+            "short": "ชมพูนุช"
         },
         {
             "name": "นายธวัชชัย สุขล้อม",
             "cover": "https://i.ibb.co/ccGvjQm/sci13.png",
             "type": "โลก อวกาศ และดาราศาสตร์",
-            "id": "sci13"
+            "id": "sci13",
+            "short": "ธวัชชัย"
         },
         {
             "name": "น.ส.กรรณิกา ใยทา",
             "cover": "https://i.ibb.co/x6kwx3m/sci14.png",
             "type": "ฟิสิกส์",
-            "id": "sci14"
+            "id": "sci14",
+            "short": "กรรณิกา"
         },
         {
             "name": "น.ส.ปิยาภรณ์ สุวรรณศรี",
             "cover": "https://i.ibb.co/cyBfYVC/sci15.png",
             "type": "ฟิสิกส์",
-            "id": "sci15"
+            "id": "sci15",
+            "short": "ปิยาภรณ์"
         },
         {
             "name": "นายพัฒนพันธ์ สิงห์สวัสดิ์",
             "cover": "https://i.ibb.co/zN9GwzD/sci16.png",
             "type": "ชีววิทยา",
-            "id": "sci16"
+            "id": "sci16",
+            "short": "พัฒนพันธ์"
         },
         {
             "name": "นายสิทธิกร สัมพันธ์กาญจน์",
             "cover": "https://i.ibb.co/d0W2SD5/sci17.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci17"
+            "id": "sci17",
+            "short": "สิทธิกร"
         },
         {
             "name": "นายอภิชาติ บุญมี",
             "cover": "https://i.ibb.co/rf3Sg10/sci18.png",
             "type": "เคมี",
-            "id": "sci18"
+            "id": "sci18",
+            "short": "อภิชาติ"
         },
         {
             "name": "นายเอกพงษ์ หุมแพง",
             "cover": "https://i.ibb.co/qk05ykG/sci19.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci19"
+            "id": "sci19",
+            "short": "เอกพงษ์"
         },
         {
             "name": "น.ส.วรรณวิภา ภู่มาก",
             "cover": "https://i.ibb.co/dbHm6bc/sci20.png",
             "type": "เคมี",
-            "id": "sci20"
+            "id": "sci20",
+            "short": "วรรณวิภา"
         },
         {
             "name": "น.ส.สุภาภรณ์ ตาปนานนท์",
             "cover": "https://i.ibb.co/4PGwnXZ/sci21.png",
             "type": "ฟิสิกส์",
-            "id": "sci21"
+            "id": "sci21",
+            "short": "สุภาภรณ์(ต)"
         },
         {
             "name": "น.ส.ขวัญฤดี ฐิตาปุรเชษฐ์",
             "cover": "https://i.ibb.co/7NmCqtw/sci22.png",
             "type": "ชีววิทยา",
-            "id": "sci22"
+            "id": "sci22",
+            "short": "ขวัญฤดี"
         },
         {
             "name": "น.ส.สุดารัตน์ ช่างสีดา",
             "cover": "https://i.ibb.co/nD54b5w/sci23.png",
             "type": "ฟิสิกส์",
-            "id": "sci23"
+            "id": "sci23",
+            "short": "สุดารัตน์"
         },
         {
             "name": "น.ส.วารินทร์ ผิวอ่อน",
             "cover": "https://i.ibb.co/ss5mK9f/sci24.png",
             "type": "ชีววิทยา",
-            "id": "sci24"
+            "id": "sci24",
+            "short": "วารินทร์"
         },
         {
             "name": "น.ส.สุกัญญา สมมุติ",
             "cover": "https://i.ibb.co/C1y1hVB/sci25.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci25"
+            "id": "sci25",
+            "short": "สุกัญญา"
         },
         {
             "name": "นายโพธิวัฒน์พล คงซ่าน",
             "cover": "https://i.ibb.co/fvD5FBv/sci26.png",
             "type": "เคมี",
-            "id": "sci26"
+            "id": "sci26",
+            "short": "โพธิวัฒน์พล"
         },
         {
             "name": "น.ส.กุลชยา พิทยาวงศ์ฤกษ์",
             "cover": "https://i.ibb.co/9h8PJSp/sci27.png",
             "type": "โลก ดาราศาสตร์และอวกาศ",
-            "id": "sci27"
+            "id": "sci27",
+            "short": "กุลชยา"
         },
         {
             "name": "น.ส.ภัทรา อินทร์ธูป",
             "cover": "https://i.ibb.co/g6W6htT/sci28.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci28"
+            "id": "sci28",
+            "short": "ภัทรา"
         },
         {
             "name": "น.ส.ยลกร จีนทองคำ",
             "cover": "https://i.ibb.co/r02Bxk7/sci29.png",
             "type": "ฟิสิกส์",
-            "id": "sci29"
+            "id": "sci29",
+            "short": "ยลกร"
         },
         {
             "name": "นายธนกร อรรจนาวัฒน์",
             "cover": "https://i.ibb.co/hCsyJ8S/sci30.png",
             "type": "ฟิสิกส์",
-            "id": "sci30"
+            "id": "sci30",
+            "short": "ธนกร(อ)"
         },
         {
             "name": "น.ส.ภัทรี พรมมีสี",
             "cover": "https://i.ibb.co/1fMbrZm/sci31.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci31"
+            "id": "sci31",
+            "short": "ภัทรี"
         },
         {
             "name": "นายนิเทศก์ ศรีเมือง",
             "cover": "https://i.ibb.co/tsRHGNr/sci32.png",
             "type": "ฟิสิกส์",
-            "id": "sci32"
+            "id": "sci32",
+            "short": "นิเทศก์"
         },
         {
             "name": "น.ส.มานิกา แสนจันทะ",
             "cover": "https://i.ibb.co/DzFb1Wx/sci33.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci33"
+            "id": "sci33",
+            "short": "มานิกา"
         },
         {
             "name": "นางเสาวลักษณ์ กังวานสกุลทอง",
             "cover": "https://i.ibb.co/9G2zMBh/sci34.png",
             "type": "เทคโนโลยี",
-            "id": "sci34"
+            "id": "sci34",
+            "short": "เสาวลักษณ์(ก)"
         },
         {
             "name": "น.ส.นิภารัตน์ รูปไข่",
             "cover": "https://i.ibb.co/bmZpGX9/sci35.png",
             "type": "เทคโนโลยี",
-            "id": "sci35"
+            "id": "sci35",
+            "short": "นิภารัตน์"
         },
         {
             "name": "นายภพณิพิฐ สิงห์ปรุ",
             "cover": "https://i.ibb.co/zN4qyFk/sci36.png",
             "type": "เทคโนโลยี",
-            "id": "sci36"
+            "id": "sci36",
+            "short": "ภพณิพิฐ"
         },
         {
             "name": "นายพุทธพล ภาคสุวรรณ์",
             "cover": "https://i.ibb.co/qgJQ7m8/sci37.png",
             "type": "เทคโนโลยี",
-            "id": "sci37"
+            "id": "sci37",
+            "short": "พุทธพล"
         },
         {
             "name": "นายนนท์ปวิธ กันเกลา",
             "cover": "https://i.ibb.co/x54JZn9/sci38.png",
             "type": "เคมี",
-            "id": "sci38"
+            "id": "sci38",
+            "short": "สุพรรณี"
         },
         {
             "name": "นายอนุพงษ์ ทรัพย์สุข",
             "cover": "https://i.ibb.co/SRFqbc3/sci39.png",
             "type": "เคมี",
-            "id": "sci39"
+            "id": "sci39",
+            "short": "อนุพงษ์"
         },
         {
             "name": "นายชรวิทย์ พรมจรรย์",
             "cover": "https://i.ibb.co/RcfKNQB/sci40.png",
             "type": "เทคโนโลยี",
-            "id": "sci40"
+            "id": "sci40",
+            "short": "ชรวิทย์"
         },
         {
             "name": "นายภูกษิดิ์กันต์ ภูมินา",
             "cover": "https://i.ibb.co/XbMFw8C/sci41.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci41"
+            "id": "sci41",
+            "short": "ภูกษิดิ์กันต์"
         },
         {
             "name": "น.ส.ภัสรา กุลรัมย์",
             "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
             "type": "เทคโนโลยี",
-            "id": "sci42"
+            "id": "sci42",
+            "short": "ภัสรา"
         },
         {
             "name": "น.ส.ภัทรวรรณ โถรัตน์",
             "cover": "https://i.ibb.co/B2rN4Sr/sci43.png",
             "type": "วิทยาศาสตร์พื้นฐาน",
-            "id": "sci43"
+            "id": "sci43",
+            "short": "ภัทรวรรณ"
         },
         {
             "name": "นายเขตโสภณ งามสม",
             "cover": "https://i.ibb.co/6m7PDpY/sci44.png",
             "type": "เทคโนโลยี",
-            "id": "sci44"
+            "id": "sci44",
+            "short": "เขตโสภณ"
         },
         {
             "name": "นางสาววิยดา ไตรยวงค์",
             "cover": "https://i.ibb.co/GWy62K7/sci45.png",
             "type": "เทคโนโลยี",
-            "id": "sci45"
+            "id": "sci45",
+            "short": "วิยดา"
         },
         {
             "name": "น.ส.พัฒภิรมณ์ ศรีธรรมา",
             "cover": "https://i.ibb.co/8sHtfHc/sci46.jpg",
             "type": "โลก ดาราศาสตร์ และอวกาศ",
-            "id": "sci46"
+            "id": "sci46",
+            "short": "พัฒภิรมณ์"
         },
         {
             "name": "น.ส.ธันยา ปิติธาดากุล",
             "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
             "type": "ฟิสิกส์",
-            "id": "sci47"
+            "id": "sci47",
+            "short": "ธันยา"
         }
     ]
 }

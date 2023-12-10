@@ -4,72 +4,86 @@
         {
             "name": "นายสุทธิพงษ์ คงสว่าง",
             "cover": "https://i.ibb.co/VVVp7tD/soc1.png",
-            "id": "soc1"
+            "id": "soc1",
+            "short": "สุทธิพงษ์"
         },
         {
             "name": "นายกิตติธัช ทรงศิริ",
             "cover": "https://i.ibb.co/BLvnVCR/soc2.jpg",
-            "id": "soc2"
+            "id": "soc2",
+            "short": "กิตติธัช"
         },
         {
             "name": "นางนริสา กล่ำแสง",
             "cover": "https://i.ibb.co/fSQqHXZ/soc3.png",
-            "id": "soc3"
+            "id": "soc3",
+            "short": "นริสา"
         },
         {
             "name": "น.ส.สุนิสา เพ็งสุข",
             "cover": "https://i.ibb.co/h774sGw/soc4.png",
-            "id": "soc4"
+            "id": "soc4",
+            "short": "สุนิสา"
         },
         {
             "name": "นายวรุตม์ วรุตมะ",
             "cover": "https://i.ibb.co/dbp1NJq/soc5.jpg",
-            "id": "soc5"
+            "id": "soc5",
+            "short": "วรุตม์"
         },
         {
             "name": "น.ส.ภัทรวดี อุดมมนกุล",
             "cover": "https://i.ibb.co/RNBVXJN/soc6.jpg",
-            "id": "soc6"
+            "id": "soc6",
+            "short": "ภัทรวดี"
         },
         {
             "name": "น.ส.วิไลลักษณ์ สมจิตร",
             "cover": "https://i.ibb.co/Xpqr38R/soc7.jpg",
-            "id": "soc7"
+            "id": "soc7",
+            "short": "วิไลลักษณ์"
         },
         {
             "name": "นายธราดล รานรินทร์",
             "cover": "https://i.ibb.co/4jwSnc4/soc8.png",
-            "id": "soc8"
+            "id": "soc8",
+            "short": "ธราดล"
         },
         {
             "name": "น.ส.จินตนา มังกรกรรณ์",
             "cover": "https://i.ibb.co/k0rM68G/soc9.png",
-            "id": "soc9"
+            "id": "soc9",
+            "short": "จินตนา"
         },
         {
             "name": "ว่าที่ ร.ต.อัษฎาวุฒิ ปัดมะลิด",
             "cover": "https://i.ibb.co/GJB2Sq8/soc10.png",
-            "id": "soc10"
+            "id": "soc10",
+            "short": "อัษฎาวุฒิ"
         },
         {
             "name": "น.ส.จิตรลดา รุ่งเรือง",
             "cover": "https://i.ibb.co/FxS6Z01/soc11.png",
-            "id": "soc11"
+            "id": "soc11",
+            "short": "จิตรลดา"
         },
         {
             "name": "น.ส.สุนิษา โพธิ์ชนะ",
             "cover": "https://i.ibb.co/qRRL5Nj/soc12.jpg",
-            "id": "soc12"
+            "id": "soc12",
+            "short": "สุนิษา"
         },
         {
             "name": "นายณัฐชนน อนันเอื้อ",
             "cover": "https://i.ibb.co/XbqQ74W/soc13.png",
-            "id": "soc13"
+            "id": "soc13",
+            "short": "ณัฐชนน"
         },
         {
             "name": "นายอนุชา ทานะสินทร์",
             "cover": "https://i.ibb.co/QQfQCgb/act5.jpg",
-            "id": "soc14"
+            "id": "soc14",
+            "short": "อนุชา"
         }
     ]
 }
