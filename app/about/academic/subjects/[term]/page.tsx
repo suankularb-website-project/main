@@ -27,7 +27,7 @@ export default function Term({ params }: { params: { term: string }}) {
             <div className="w-full px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                 {
                     subjects.map((item, index) => 
-                        <Link href={`/about/academic/subjects/info/${encodeURI(item.code)}`} key={item.code}>
+                        <Link href={`/about/academic/subjects/info/${item.code}`} key={item.code}>
                             <Card
                                 hoverable
                                 title={item.name}
