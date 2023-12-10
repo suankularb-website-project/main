@@ -9,7 +9,7 @@ import { useEffect, FormEvent, useState, SetStateAction, JSX } from "react";
 export default function Course() {
     const router = useRouter();
     const handleSubmit = (term: string) => {
-        router.push(`/about/academic/subjects/term${term}`)
+        router.push(`/about/academic/subjects/${term}`)
     }
     return (
         <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
