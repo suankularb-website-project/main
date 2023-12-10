@@ -6,6 +6,7 @@ import Navbar from '@/components/header';
 import Footer from '@/components/footer';
 import './globals.css'
 import themed from '@/theme/themeConfig';
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
     title: 'โรงเรียนสวนกุหลาบวิทยาลัย',
@@ -32,6 +33,7 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
                     <Footer />
                 </ConfigProvider>
             </StyledComponentsRegistry>
+            <Analytics />
         </body>
     </html>
 );

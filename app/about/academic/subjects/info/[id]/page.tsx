@@ -33,4 +33,3 @@ export default function Course({ params }: { params: { id: string }}) {
         </main>
     )
 }
-
