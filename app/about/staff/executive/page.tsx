@@ -20,7 +20,7 @@ export default function Executive() {
                 </div>
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
                     {exe.staffs.slice(1).map((item: any, index: any) => (
-                        <center>
+                        <center key={index}>
                             <Card
                                 key={index}
                                 hoverable
