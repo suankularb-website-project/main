@@ -15,9 +15,10 @@ export default function Home() {
                 <Image
                     alt="Mountains"
                     src={background}
+                    fill
                     placeholder="blur"
-                    quality={100}
                     className="h-100 w-screen object-cover bg-gradient-to-r z-[-1]"
+                    priority
                 />
                 <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg absolute flex flex-col h-full py-20 px-10 gap-2 items-end justify-center">
                     <h1 className="text-xl sm:text-2xl md:text-4xl text-white font-bold">ยินดีต้อนรับเข้าสู่เว็บไซต์</h1>
