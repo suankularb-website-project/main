@@ -10,12 +10,13 @@ import TimetableForm from "@/components/timetableForm";
 export default function Home() {
     const news = newsData.slice(0, 6)
     return (
-        <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
+        <main className="flex flex-col items-center justify-between top-0 xs:pt-0">
             <div className="hidden xxs:flex relative h-[calc(100vh-71px)] w-full align-items-end justify-center bg-gradient-to-tl from-black via-[#000000ba] to-transparent">
                 <Image
                     alt="Background"
                     src={background}
                     fill
+                    priority
                     placeholder="blur"
                     className="h-100 w-screen object-cover bg-gradient-to-r z-[-1]"
                 />

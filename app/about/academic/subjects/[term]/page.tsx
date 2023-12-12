@@ -22,7 +22,7 @@ export default function Term({ params }: { params: { term: string }}) {
         }
     }
     return (
-        <main className="flex flex-col items-center justify-between top-0 pt-11 xxs:pt-0">
+        <main className="flex flex-col items-center justify-between top-0 pt-0 xxs:pt-0">
             <h1 className="py-2 text-xl font-black text-center">ประมวลรายวิชา<br />ภาคเรียนที่ {params.term.substring(params.term.length - 1)} ปีการศึกษา 2566</h1>
             <div className="w-full px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                 {

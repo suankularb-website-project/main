@@ -39,13 +39,12 @@ const processedTeacherData = [
 
 export default function General() {
     return (
-        <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
+        <main className="flex flex-col items-center justify-between top-0 pt-0">
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
-                <h1 className="text-3xl font-bold">ข้อมูลทั่วไป</h1>
-                <Divider />
-                <h2 className="text-xl font-bold">จำนวนนักเรียน</h2>
-                <p className="text-lg text-gray-400">ข้อมูลจากงานสารสนเทศ กลุ่มพัฒนาคุณภาพการศึกษา ณ วันที่ {studentData.updatedAt}</p>
-                <p className="text-lg">จำนวนนักเรียนทั้งหมด {studentData.data.reduce((acc, cur) => acc + Number(cur.column2), 0).toString()} คน แบ่งออกเป็นระดับชั้นที่เปิดสอน ดังนี้</p>
+                <h1 className="text-lg lg:text-2xl font-bold">ข้อมูลทั่วไป</h1>
+                <h2 className="text-md lg:text-xl font-bold pt-1">จำนวนนักเรียน</h2>
+                <p className="text-sm lg:text-lg text-gray-400 text-center">ข้อมูลจากงานสารสนเทศ กลุ่มพัฒนาคุณภาพการศึกษา<br />ณ วันที่ {studentData.updatedAt}</p>
+                <p className="text-sm lg:text-lg">จำนวนนักเรียนทั้งหมด {studentData.data.reduce((acc, cur) => acc + Number(cur.column2), 0).toString()} คน แบ่งออกเป็นระดับชั้นที่เปิดสอน ดังนี้</p>
                 <Table dataSource={processedStudentData}>
                     <Column title="ระดับชั้น" dataIndex="level" key="level" />
                     <ColumnGroup title={`จำนวนนักเรียนในระยะ ${studentData.years.length}`}>
@@ -57,9 +56,9 @@ export default function General() {
                     </ColumnGroup>
                 </Table>
                 <Divider />
-                <h2 className="text-xl font-bold">จำนวนบุคลากร</h2>
-                <p className="text-lg text-gray-400">ข้อมูลจากงานสารสนเทศ กลุ่มพัฒนาคุณภาพการศึกษา ณ วันที่ {teacherData.updatedAt}</p>
-                <p className="text-lg">จำนวนบุคลากรทั้งหมด {teacherData.data.reduce((acc, cur) => acc + Number(cur.column1), 0).toString()} คน แบ่งออกตามประเภท ดังนี้</p>
+                <h2 className="text-md lg:text-xl font-bold">จำนวนบุคลากร</h2>
+                <p className="text-sm lg:text-lg text-gray-400 text-center">ข้อมูลจากงานสารสนเทศ กลุ่มพัฒนาคุณภาพการศึกษา<br />ณ วันที่ {teacherData.updatedAt}</p>
+                <p className="text-sm lg:text-lg">จำนวนบุคลากรทั้งหมด {teacherData.data.reduce((acc, cur) => acc + Number(cur.column1), 0).toString()} คน แบ่งออกตามประเภท ดังนี้</p>
                 <Table dataSource={processedTeacherData}>
                     <Column title="ประเภทบุคลากร" dataIndex="type" key="type" />
                     <ColumnGroup title="ปีการศึกษา">

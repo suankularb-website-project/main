@@ -44,7 +44,12 @@ const themed: ThemeConfig = {
         },
         Form: {
             labelColor: "#ffffff",
-        }
+        },
+        List: {
+            colorBgContainer: "#000000",
+            colorText: "#ffffff",
+            algorithm: true
+        },
     },
 };
 

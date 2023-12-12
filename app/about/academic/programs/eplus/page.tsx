@@ -7,13 +7,10 @@ export default function General() {
     return (
         <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
-                <h1 className="text-3xl font-bold">วิชาการสวนกุหลาบฯ</h1>
-                <Divider />
+                <h1 className="text-xl font-black">วิชาการสวนกุหลาบฯ</h1>
                 <h1 className="text-3xl font-bold text-center">โครงการจัดการเรียนการสอนตามหลักสูตรกระทรวงศึกษาธิการ<br />เป็นภาษาอังกฤษ</h1>
                 <h2 className="text-xl font-bold">English Program : EPLUS+</h2>
-                <Divider />
                 <p className="text-center">EPLUS+ ประกอบด้วยความพิเศษทั้งหมด 8+ ที่จะส่งเสริมให้นักเรียนก้าวข้ามขีดจำกัด สู่อีกขั้นของการเรียนรู้</p>
-                <Divider />
                 <h2 className="text-xl font-bold">PLUS ONE ที่สุดของความเป็นเลิศทางภาษา</h2>
                 <p className="text-center">นักเรียน EPLUS+ จะได้พบกับการเรียนการสอนเป็นภาษาอังกฤษในสาระวิชาต่างๆเช่น วิทยาศาสตร์ คณิตศาสตร์<br />สังคมศึกษาฯ พลศึกษา เทคโนโลยี รวมถึงภาษาอังกฤษเอง โดยเจ้าของภาษา รวม 21 คาบเรียนต่อสัปดาห์<br />นอกจากนี้ยังได้รับการเสริมทักษะภาษาต่างประเทศที่ 2 ได้แก่ ภาษาจีน ภาษาญี่ปุ่น และภาษาฝรั่งเศส ซึ่งให้นักเรียน<br />เลือกเรียนตามความสนใจได้คนละ 1 ภาษา อีกทั้งยังมีการจัดการแข่งขันทักษะภาษาประเภทต่างๆ ให้นักเรียน EPLUS+<br /> ทุกคนได้เข้าร่วม เพื่อแสดงศักยภาพสูงสุด และพัฒนาตนเองไปสู่ความเป็นเลิศด้านการสื่อสาร</p>
                 <Divider />
