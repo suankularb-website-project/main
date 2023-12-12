@@ -11,14 +11,13 @@ export default function Home() {
     const news = newsData.slice(0, 6)
     return (
         <main className="flex flex-col items-center justify-between top-0 pt-10 xxs:pt-0">
-            <div className="hidden xxs:flex relative h-[calc(100vh-71px)] align-items-end justify-center bg-gradient-to-tl from-black via-[#000000ba] to-transparent">
+            <div className="hidden xxs:flex relative h-[calc(100vh-71px)] w-full align-items-end justify-center bg-gradient-to-tl from-black via-[#000000ba] to-transparent">
                 <Image
-                    alt="Mountains"
+                    alt="Background"
                     src={background}
                     fill
                     placeholder="blur"
                     className="h-100 w-screen object-cover bg-gradient-to-r z-[-1]"
-                    priority
                 />
                 <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg absolute flex flex-col h-full py-20 px-10 gap-2 items-end justify-center">
                     <h1 className="text-xl sm:text-2xl md:text-4xl text-white font-bold">ยินดีต้อนรับเข้าสู่เว็บไซต์</h1>

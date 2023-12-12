@@ -8,6 +8,12 @@ import './globals.css'
 import themed from '@/theme/themeConfig';
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { IBM_Plex_Sans_Thai } from "next/font/google";
+
+const ibmPlexSansThai = IBM_Plex_Sans_Thai({
+    subsets: ["latin", "thai"],
+    weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
 
 export const metadata = {
     title: 'โรงเรียนสวนกุหลาบวิทยาลัย',
@@ -19,12 +25,9 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta charSet="utf-8" />
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
             <link rel="icon" href="/favicon.ico" sizes="any" />
         </head>
-        <body className="bg-black flex flex-col">
+        <body className={`${ibmPlexSansThai.className} bg-black flex flex-col`}>
             <StyledComponentsRegistry>
                 <ConfigProvider
                     theme={themed}
