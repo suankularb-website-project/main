@@ -1,9 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
-import { Table, Divider, Col } from "antd";
+"use client"; // Table components require client due to stringify function not available in serverside rendering.
+
+import { Table, Divider } from "antd";
 import phone from "@/config/info/phone.json";
 
-const { Column, ColumnGroup } = Table;
+const { Column } = Table;
 
 export default function General() {
     return (
