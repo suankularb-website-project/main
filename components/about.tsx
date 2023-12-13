@@ -85,8 +85,8 @@ const Sidebar: React.FC = () => {
     };
 
     const onClick: MenuProps['onClick'] = (key) => {
-        const path = key.keyPath.map((e, i, a) => a[(a.length - 1) - i]).join("/")
-        router.push(`/about/${path}`)
+        const path = key.keyPath.filter(k => k !== "rc-menu-more").map((e, i, a) => a[(a.length - 1) - i]).join("/");
+        router.push(`/about/${path}`);
     }
     
     return (

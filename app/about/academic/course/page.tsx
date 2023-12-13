@@ -436,7 +436,7 @@ export default function Course() {
         <main className="flex flex-col items-center justify-between top-0">
             <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg flex flex-col items-center justify-center py-10 px-10 gap-2" id="content">
                 {contextHolder}
-                <h1 className="text-3xl font-black">โครงสร้างแผนการเรียน</h1>
+                <h1 className="text-xl font-black">โครงสร้างแผนการเรียน</h1>
                 <Form form={form} onFinish={roomFinish}>
                     <Form.Item name="room" label="ระดับชั้น">
                         <InputNumber />

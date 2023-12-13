@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
-
 :root {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
@@ -26,7 +24,6 @@ button,
 }
 
 body {
-    font-family: 'IBM Plex Sans Thai', sans-serif !important;
     color: white;
     background: black;
 }
