@@ -49,14 +49,14 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                     {currentNews.length > 0 ? (
-                        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                        <div className="w-full grid grid-cols-1 xxs:grid-cols-2 lg:grid-cols-3 gap-2">
                             {currentNews.map((item, index) => (
                                 <Link href={`/news/${item.id}`} key={item.id}>
                                     <Card
                                         hoverable
                                         className="w-full bg-transparent md:h-[21rem] lg:h-80"
                                         title={item.title}
-                                        cover={<div className="md:h-[10.75rem] lg:h-40"><Image alt={item.title} src={item.cover} width={900} height={500} className="max-h-full max-w-full" /></div>}
+                                        cover={<div className="md:h-[10.75rem] lg:h-40"><Image alt={item.title} src={item.cover} width={340} height={250} className="max-h-full max-w-full" /></div>}
                                     >
                                         <p className="text-gray-500">{item.description}</p>
                                     </Card>
