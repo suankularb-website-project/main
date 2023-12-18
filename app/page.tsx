@@ -14,11 +14,10 @@ export default function Home() {
             <div className="hidden xxs:flex relative h-[calc(100vh-71px)] w-full align-items-end justify-center bg-gradient-to-tl from-black via-[#000000ba] to-transparent">
                 <Image
                     alt="Background"
-                    src={background}
+                    src="https://i.ibb.co/M6GR8df/background.png"
                     fill
                     priority
                     placeholder="blur"
-                    quality={5}
                     className="h-100 w-screen object-cover bg-gradient-to-r z-[-1]"
                 />
                 <div className="container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg absolute flex flex-col h-full py-20 px-10 gap-2 items-end justify-center">
